@@ -9,7 +9,7 @@
     "canvas": "^2.10.2",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.1.0",
+    "react-dom": "18.2.0",
     "react-konva": "^18.2.3",
     "firebase": "^9.0.0"
   },
