@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/admin/connect": [
+    "/camera": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/admin/connect.js"
+      "static/chunks/pages/camera.js"
     ]
   },
   "ampFirstPages": []
