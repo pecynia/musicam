@@ -1,13 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/admin/connect": "pages/admin/connect.html",
-  "/admin/control": "pages/admin/control.html",
-  "/api/hello": "pages/api/hello.js",
-  "/camera": "pages/camera.html",
-  "/": "pages/index.html",
-  "/instructions": "pages/instructions.html",
-  "/spectator": "pages/spectator.html",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/admin/connect": "pages/admin/connect.js"
 }
