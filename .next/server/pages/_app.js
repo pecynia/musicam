@@ -1,85 +1,144 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./node_modules/@swc/helpers/lib/_extends.js":
-/*!***************************************************!*\
-  !*** ./node_modules/@swc/helpers/lib/_extends.js ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return _extends;\n    }\n}));\nfunction extends_() {\n    extends_ = Object.assign || function(target) {\n        for(var i = 1; i < arguments.length; i++){\n            var source = arguments[i];\n            for(var key in source){\n                if (Object.prototype.hasOwnProperty.call(source, key)) {\n                    target[key] = source[key];\n                }\n            }\n        }\n        return target;\n    };\n    return extends_.apply(this, arguments);\n}\nfunction _extends() {\n    return extends_.apply(this, arguments);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9fZXh0ZW5kcy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBYTtBQUNiLDhDQUE2QztBQUM3QztBQUNBLENBQUMsRUFBQztBQUNGLDJDQUEwQztBQUMxQztBQUNBO0FBQ0E7QUFDQTtBQUNBLENBQUMsRUFBQztBQUNGO0FBQ0E7QUFDQSx1QkFBdUIsc0JBQXNCO0FBQzdDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9fZXh0ZW5kcy5qcz8zOThhIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiZGVmYXVsdFwiLCB7XG4gICAgZW51bWVyYWJsZTogdHJ1ZSxcbiAgICBnZXQ6IGZ1bmN0aW9uKCkge1xuICAgICAgICByZXR1cm4gX2V4dGVuZHM7XG4gICAgfVxufSk7XG5mdW5jdGlvbiBleHRlbmRzXygpIHtcbiAgICBleHRlbmRzXyA9IE9iamVjdC5hc3NpZ24gfHwgZnVuY3Rpb24odGFyZ2V0KSB7XG4gICAgICAgIGZvcih2YXIgaSA9IDE7IGkgPCBhcmd1bWVudHMubGVuZ3RoOyBpKyspe1xuICAgICAgICAgICAgdmFyIHNvdXJjZSA9IGFyZ3VtZW50c1tpXTtcbiAgICAgICAgICAgIGZvcih2YXIga2V5IGluIHNvdXJjZSl7XG4gICAgICAgICAgICAgICAgaWYgKE9iamVjdC5wcm90b3R5cGUuaGFzT3duUHJvcGVydHkuY2FsbChzb3VyY2UsIGtleSkpIHtcbiAgICAgICAgICAgICAgICAgICAgdGFyZ2V0W2tleV0gPSBzb3VyY2Vba2V5XTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgICAgcmV0dXJuIHRhcmdldDtcbiAgICB9O1xuICAgIHJldHVybiBleHRlbmRzXy5hcHBseSh0aGlzLCBhcmd1bWVudHMpO1xufVxuZnVuY3Rpb24gX2V4dGVuZHMoKSB7XG4gICAgcmV0dXJuIGV4dGVuZHNfLmFwcGx5KHRoaXMsIGFyZ3VtZW50cyk7XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/lib/_extends.js\n");
-
-/***/ }),
-
-/***/ "./node_modules/@swc/helpers/lib/_interop_require_default.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@swc/helpers/lib/_interop_require_default.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return _interopRequireDefault;\n    }\n}));\nfunction _interopRequireDefault(obj) {\n    return obj && obj.__esModule ? obj : {\n        default: obj\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9faW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQuanMuanMiLCJtYXBwaW5ncyI6IkFBQWE7QUFDYiw4Q0FBNkM7QUFDN0M7QUFDQSxDQUFDLEVBQUM7QUFDRiwyQ0FBMEM7QUFDMUM7QUFDQTtBQUNBO0FBQ0E7QUFDQSxDQUFDLEVBQUM7QUFDRjtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vbm9kZV9tb2R1bGVzL0Bzd2MvaGVscGVycy9saWIvX2ludGVyb3BfcmVxdWlyZV9kZWZhdWx0LmpzPzliN2MiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgICB2YWx1ZTogdHJ1ZVxufSk7XG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJkZWZhdWx0XCIsIHtcbiAgICBlbnVtZXJhYmxlOiB0cnVlLFxuICAgIGdldDogZnVuY3Rpb24oKSB7XG4gICAgICAgIHJldHVybiBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0O1xuICAgIH1cbn0pO1xuZnVuY3Rpb24gX2ludGVyb3BSZXF1aXJlRGVmYXVsdChvYmopIHtcbiAgICByZXR1cm4gb2JqICYmIG9iai5fX2VzTW9kdWxlID8gb2JqIDoge1xuICAgICAgICBkZWZhdWx0OiBvYmpcbiAgICB9O1xufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/lib/_interop_require_default.js\n");
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/shared/lib/dynamic.js":
-/*!******************************************************!*\
-  !*** ./node_modules/next/dist/shared/lib/dynamic.js ***!
-  \******************************************************/
+/***/ 7645:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nexports[\"default\"] = dynamic;\nexports.noSSR = noSSR;\nvar _extends = (__webpack_require__(/*! @swc/helpers/lib/_extends.js */ \"./node_modules/@swc/helpers/lib/_extends.js\")[\"default\"]);\nvar _interop_require_default = (__webpack_require__(/*! @swc/helpers/lib/_interop_require_default.js */ \"./node_modules/@swc/helpers/lib/_interop_require_default.js\")[\"default\"]);\nvar _react = _interop_require_default(__webpack_require__(/*! react */ \"react\"));\nvar _loadable = _interop_require_default(__webpack_require__(/*! ./loadable */ \"./loadable\"));\nfunction dynamic(dynamicOptions, options) {\n    let loadableFn = _loadable.default;\n    let loadableOptions = (options == null ? void 0 : options.suspense) ? {} : {\n        // A loading component is not required, so we default it\n        loading: ({ error , isLoading , pastDelay  })=>{\n            if (!pastDelay) return null;\n            if (true) {\n                if (isLoading) {\n                    return null;\n                }\n                if (error) {\n                    return /*#__PURE__*/ _react.default.createElement(\"p\", null, error.message, /*#__PURE__*/ _react.default.createElement(\"br\", null), error.stack);\n                }\n            }\n            return null;\n        }\n    };\n    // Support for direct import(), eg: dynamic(import('../hello-world'))\n    // Note that this is only kept for the edge case where someone is passing in a promise as first argument\n    // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))\n    // To make sure we don't execute the import without rendering first\n    if (dynamicOptions instanceof Promise) {\n        loadableOptions.loader = ()=>dynamicOptions;\n    // Support for having import as a function, eg: dynamic(() => import('../hello-world'))\n    } else if (typeof dynamicOptions === \"function\") {\n        loadableOptions.loader = dynamicOptions;\n    // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})\n    } else if (typeof dynamicOptions === \"object\") {\n        loadableOptions = _extends({}, loadableOptions, dynamicOptions);\n    }\n    // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})\n    loadableOptions = _extends({}, loadableOptions, options);\n    if (loadableOptions.suspense) {\n        if (true) {\n            /**\n       * TODO: Currently, next/dynamic will opt-in to React.lazy if { suspense: true } is used\n       * React 18 will always resolve the Suspense boundary on the server-side, effectively ignoring the ssr option\n       *\n       * In the future, when React Suspense with third-party libraries is stable, we can implement a custom version of\n       * React.lazy that can suspense on the server-side while only loading the component on the client-side\n       */ if (loadableOptions.ssr === false) {\n                console.warn(`\"ssr: false\" is ignored by next/dynamic because you can not enable \"suspense\" while disabling \"ssr\" at the same time. Read more: https://nextjs.org/docs/messages/invalid-dynamic-suspense`);\n            }\n            if (loadableOptions.loading != null) {\n                console.warn(`\"loading\" is ignored by next/dynamic because you have enabled \"suspense\". Place your loading element in your suspense boundary's \"fallback\" prop instead. Read more: https://nextjs.org/docs/messages/invalid-dynamic-suspense`);\n            }\n        }\n        delete loadableOptions.ssr;\n        delete loadableOptions.loading;\n    }\n    // coming from build/babel/plugins/react-loadable-plugin.js\n    if (loadableOptions.loadableGenerated) {\n        loadableOptions = _extends({}, loadableOptions, loadableOptions.loadableGenerated);\n        delete loadableOptions.loadableGenerated;\n    }\n    // support for disabling server side rendering, eg: dynamic(import('../hello-world'), {ssr: false}).\n    // skip `ssr` for suspense mode and opt-in React.lazy directly\n    if (typeof loadableOptions.ssr === \"boolean\" && !loadableOptions.suspense) {\n        if (!loadableOptions.ssr) {\n            delete loadableOptions.ssr;\n            return noSSR(loadableFn, loadableOptions);\n        }\n        delete loadableOptions.ssr;\n    }\n    return loadableFn(loadableOptions);\n}\nconst isServerSide = \"undefined\" === \"undefined\";\nfunction noSSR(LoadableInitializer, loadableOptions) {\n    // Removing webpack and modules means react-loadable won't try preloading\n    delete loadableOptions.webpack;\n    delete loadableOptions.modules;\n    // This check is necessary to prevent react-loadable from initializing on the server\n    if (!isServerSide) {\n        return LoadableInitializer(loadableOptions);\n    }\n    const Loading = loadableOptions.loading;\n    // This will only be rendered on the server side\n    return ()=>/*#__PURE__*/ _react.default.createElement(Loading, {\n            error: null,\n            isLoading: true,\n            pastDelay: false,\n            timedOut: false\n        });\n}\nif ((typeof exports.default === \"function\" || typeof exports.default === \"object\" && exports.default !== null) && typeof exports.default.__esModule === \"undefined\") {\n    Object.defineProperty(exports.default, \"__esModule\", {\n        value: true\n    });\n    Object.assign(exports.default, exports);\n    module.exports = exports.default;\n} //# sourceMappingURL=dynamic.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L3NoYXJlZC9saWIvZHluYW1pYy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBYTtBQUNiQSw4Q0FBNkM7SUFDekNHLE9BQU8sSUFBSTtBQUNmLENBQUMsRUFBQztBQUNGRCxrQkFBZSxHQUFHRztBQUNsQkgsYUFBYSxHQUFHSTtBQUNoQixJQUFJQyxXQUFXQyxtSEFBK0M7QUFDOUQsSUFBSUMsMkJBQTJCRCxtSkFBK0Q7QUFDOUYsSUFBSUUsU0FBU0QseUJBQXlCRCxtQkFBT0EsQ0FBQyxvQkFBTztBQUNyRCxJQUFJRyxZQUFZRix5QkFBeUJELG1CQUFPQSxDQUFDLDhCQUFZO0FBQzdELFNBQVNILFFBQVFPLGNBQWMsRUFBRUMsT0FBTyxFQUFFO0lBQ3RDLElBQUlDLGFBQWFILFVBQVVQLE9BQU87SUFDbEMsSUFBSVcsa0JBQWtCLENBQUNGLFdBQVcsSUFBSSxHQUFHLEtBQUssSUFBSUEsUUFBUUcsUUFBUSxJQUFJLENBQUMsSUFBSTtRQUN2RSx3REFBd0Q7UUFDeERDLFNBQVMsQ0FBQyxFQUFFQyxNQUFLLEVBQUdDLFVBQVMsRUFBR0MsVUFBUyxFQUFHLEdBQUc7WUFDM0MsSUFBSSxDQUFDQSxXQUFXLE9BQU8sSUFBSTtZQUMzQixJQUFJQyxJQUF5QixFQUFlO2dCQUN4QyxJQUFJRixXQUFXO29CQUNYLE9BQU8sSUFBSTtnQkFDZixDQUFDO2dCQUNELElBQUlELE9BQU87b0JBQ1AsT0FBTyxXQUFXLEdBQUdSLE9BQU9OLE9BQU8sQ0FBQ2tCLGFBQWEsQ0FBQyxLQUFLLElBQUksRUFBRUosTUFBTUssT0FBTyxFQUFFLFdBQVcsR0FBR2IsT0FBT04sT0FBTyxDQUFDa0IsYUFBYSxDQUFDLE1BQU0sSUFBSSxHQUFHSixNQUFNTSxLQUFLO2dCQUNuSixDQUFDO1lBQ0wsQ0FBQztZQUNELE9BQU8sSUFBSTtRQUNmO0lBQ0osQ0FBQztJQUNELHFFQUFxRTtJQUNyRSx3R0FBd0c7SUFDeEcsMkhBQTJIO0lBQzNILG1FQUFtRTtJQUNuRSxJQUFJWiwwQkFBMEJhLFNBQVM7UUFDbkNWLGdCQUFnQlcsTUFBTSxHQUFHLElBQUlkO0lBQ2pDLHVGQUF1RjtJQUN2RixPQUFPLElBQUksT0FBT0EsbUJBQW1CLFlBQVk7UUFDN0NHLGdCQUFnQlcsTUFBTSxHQUFHZDtJQUM3QixtR0FBbUc7SUFDbkcsT0FBTyxJQUFJLE9BQU9BLG1CQUFtQixVQUFVO1FBQzNDRyxrQkFBa0JSLFNBQVMsQ0FBQyxHQUFHUSxpQkFBaUJIO0lBQ3BELENBQUM7SUFDRCxnSEFBZ0g7SUFDaEhHLGtCQUFrQlIsU0FBUyxDQUFDLEdBQUdRLGlCQUFpQkY7SUFDaEQsSUFBSUUsZ0JBQWdCQyxRQUFRLEVBQUU7UUFDMUIsSUFBSUssSUFBeUIsRUFBYztZQUN2Qzs7Ozs7O09BTUwsR0FBRyxJQUFJTixnQkFBZ0JZLEdBQUcsS0FBSyxLQUFLLEVBQUU7Z0JBQzdCQyxRQUFRQyxJQUFJLENBQUMsQ0FBQywwTEFBMEwsQ0FBQztZQUM3TSxDQUFDO1lBQ0QsSUFBSWQsZ0JBQWdCRSxPQUFPLElBQUksSUFBSSxFQUFFO2dCQUNqQ1csUUFBUUMsSUFBSSxDQUFDLENBQUMsOE5BQThOLENBQUM7WUFDalAsQ0FBQztRQUNMLENBQUM7UUFDRCxPQUFPZCxnQkFBZ0JZLEdBQUc7UUFDMUIsT0FBT1osZ0JBQWdCRSxPQUFPO0lBQ2xDLENBQUM7SUFDRCwyREFBMkQ7SUFDM0QsSUFBSUYsZ0JBQWdCZSxpQkFBaUIsRUFBRTtRQUNuQ2Ysa0JBQWtCUixTQUFTLENBQUMsR0FBR1EsaUJBQWlCQSxnQkFBZ0JlLGlCQUFpQjtRQUNqRixPQUFPZixnQkFBZ0JlLGlCQUFpQjtJQUM1QyxDQUFDO0lBQ0Qsb0dBQW9HO0lBQ3BHLDhEQUE4RDtJQUM5RCxJQUFJLE9BQU9mLGdCQUFnQlksR0FBRyxLQUFLLGFBQWEsQ0FBQ1osZ0JBQWdCQyxRQUFRLEVBQUU7UUFDdkUsSUFBSSxDQUFDRCxnQkFBZ0JZLEdBQUcsRUFBRTtZQUN0QixPQUFPWixnQkFBZ0JZLEdBQUc7WUFDMUIsT0FBT3JCLE1BQU1RLFlBQVlDO1FBQzdCLENBQUM7UUFDRCxPQUFPQSxnQkFBZ0JZLEdBQUc7SUFDOUIsQ0FBQztJQUNELE9BQU9iLFdBQVdDO0FBQ3RCO0FBQ0EsTUFBTWdCLGVBQWUsZ0JBQWtCO0FBQ3ZDLFNBQVN6QixNQUFNMEIsbUJBQW1CLEVBQUVqQixlQUFlLEVBQUU7SUFDakQseUVBQXlFO0lBQ3pFLE9BQU9BLGdCQUFnQmtCLE9BQU87SUFDOUIsT0FBT2xCLGdCQUFnQm1CLE9BQU87SUFDOUIsb0ZBQW9GO0lBQ3BGLElBQUksQ0FBQ0gsY0FBYztRQUNmLE9BQU9DLG9CQUFvQmpCO0lBQy9CLENBQUM7SUFDRCxNQUFNb0IsVUFBVXBCLGdCQUFnQkUsT0FBTztJQUN2QyxnREFBZ0Q7SUFDaEQsT0FBTyxJQUFJLFdBQVcsR0FBR1AsT0FBT04sT0FBTyxDQUFDa0IsYUFBYSxDQUFDYSxTQUFTO1lBQ3ZEakIsT0FBTyxJQUFJO1lBQ1hDLFdBQVcsSUFBSTtZQUNmQyxXQUFXLEtBQUs7WUFDaEJnQixVQUFVLEtBQUs7UUFDbkI7QUFDUjtBQUVBLElBQUksQ0FBQyxPQUFPbEMsUUFBUUUsT0FBTyxLQUFLLGNBQWUsT0FBT0YsUUFBUUUsT0FBTyxLQUFLLFlBQVlGLFFBQVFFLE9BQU8sS0FBSyxJQUFJLEtBQU0sT0FBT0YsUUFBUUUsT0FBTyxDQUFDaUMsVUFBVSxLQUFLLGFBQWE7SUFDcktyQyxPQUFPQyxjQUFjLENBQUNDLFFBQVFFLE9BQU8sRUFBRSxjQUFjO1FBQUVELE9BQU8sSUFBSTtJQUFDO0lBQ25FSCxPQUFPc0MsTUFBTSxDQUFDcEMsUUFBUUUsT0FBTyxFQUFFRjtJQUMvQnFDLE9BQU9yQyxPQUFPLEdBQUdBLFFBQVFFLE9BQU87QUFDbEMsQ0FBQyxDQUVELG1DQUFtQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3Qvc2hhcmVkL2xpYi9keW5hbWljLmpzP2UyNWQiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgICB2YWx1ZTogdHJ1ZVxufSk7XG5leHBvcnRzLmRlZmF1bHQgPSBkeW5hbWljO1xuZXhwb3J0cy5ub1NTUiA9IG5vU1NSO1xudmFyIF9leHRlbmRzID0gcmVxdWlyZShcIkBzd2MvaGVscGVycy9saWIvX2V4dGVuZHMuanNcIikuZGVmYXVsdDtcbnZhciBfaW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQgPSByZXF1aXJlKFwiQHN3Yy9oZWxwZXJzL2xpYi9faW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQuanNcIikuZGVmYXVsdDtcbnZhciBfcmVhY3QgPSBfaW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQocmVxdWlyZShcInJlYWN0XCIpKTtcbnZhciBfbG9hZGFibGUgPSBfaW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQocmVxdWlyZShcIi4vbG9hZGFibGVcIikpO1xuZnVuY3Rpb24gZHluYW1pYyhkeW5hbWljT3B0aW9ucywgb3B0aW9ucykge1xuICAgIGxldCBsb2FkYWJsZUZuID0gX2xvYWRhYmxlLmRlZmF1bHQ7XG4gICAgbGV0IGxvYWRhYmxlT3B0aW9ucyA9IChvcHRpb25zID09IG51bGwgPyB2b2lkIDAgOiBvcHRpb25zLnN1c3BlbnNlKSA/IHt9IDoge1xuICAgICAgICAvLyBBIGxvYWRpbmcgY29tcG9uZW50IGlzIG5vdCByZXF1aXJlZCwgc28gd2UgZGVmYXVsdCBpdFxuICAgICAgICBsb2FkaW5nOiAoeyBlcnJvciAsIGlzTG9hZGluZyAsIHBhc3REZWxheSAgfSk9PntcbiAgICAgICAgICAgIGlmICghcGFzdERlbGF5KSByZXR1cm4gbnVsbDtcbiAgICAgICAgICAgIGlmIChwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ2RldmVsb3BtZW50Jykge1xuICAgICAgICAgICAgICAgIGlmIChpc0xvYWRpbmcpIHtcbiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIGlmIChlcnJvcikge1xuICAgICAgICAgICAgICAgICAgICByZXR1cm4gLyojX19QVVJFX18qLyBfcmVhY3QuZGVmYXVsdC5jcmVhdGVFbGVtZW50KFwicFwiLCBudWxsLCBlcnJvci5tZXNzYWdlLCAvKiNfX1BVUkVfXyovIF9yZWFjdC5kZWZhdWx0LmNyZWF0ZUVsZW1lbnQoXCJiclwiLCBudWxsKSwgZXJyb3Iuc3RhY2spO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIHJldHVybiBudWxsO1xuICAgICAgICB9XG4gICAgfTtcbiAgICAvLyBTdXBwb3J0IGZvciBkaXJlY3QgaW1wb3J0KCksIGVnOiBkeW5hbWljKGltcG9ydCgnLi4vaGVsbG8td29ybGQnKSlcbiAgICAvLyBOb3RlIHRoYXQgdGhpcyBpcyBvbmx5IGtlcHQgZm9yIHRoZSBlZGdlIGNhc2Ugd2hlcmUgc29tZW9uZSBpcyBwYXNzaW5nIGluIGEgcHJvbWlzZSBhcyBmaXJzdCBhcmd1bWVudFxuICAgIC8vIFRoZSByZWFjdC1sb2FkYWJsZSBiYWJlbCBwbHVnaW4gd2lsbCB0dXJuIGR5bmFtaWMoaW1wb3J0KCcuLi9oZWxsby13b3JsZCcpKSBpbnRvIGR5bmFtaWMoKCkgPT4gaW1wb3J0KCcuLi9oZWxsby13b3JsZCcpKVxuICAgIC8vIFRvIG1ha2Ugc3VyZSB3ZSBkb24ndCBleGVjdXRlIHRoZSBpbXBvcnQgd2l0aG91dCByZW5kZXJpbmcgZmlyc3RcbiAgICBpZiAoZHluYW1pY09wdGlvbnMgaW5zdGFuY2VvZiBQcm9taXNlKSB7XG4gICAgICAgIGxvYWRhYmxlT3B0aW9ucy5sb2FkZXIgPSAoKT0+ZHluYW1pY09wdGlvbnM7XG4gICAgLy8gU3VwcG9ydCBmb3IgaGF2aW5nIGltcG9ydCBhcyBhIGZ1bmN0aW9uLCBlZzogZHluYW1pYygoKSA9PiBpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJykpXG4gICAgfSBlbHNlIGlmICh0eXBlb2YgZHluYW1pY09wdGlvbnMgPT09ICdmdW5jdGlvbicpIHtcbiAgICAgICAgbG9hZGFibGVPcHRpb25zLmxvYWRlciA9IGR5bmFtaWNPcHRpb25zO1xuICAgIC8vIFN1cHBvcnQgZm9yIGhhdmluZyBmaXJzdCBhcmd1bWVudCBiZWluZyBvcHRpb25zLCBlZzogZHluYW1pYyh7bG9hZGVyOiBpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJyl9KVxuICAgIH0gZWxzZSBpZiAodHlwZW9mIGR5bmFtaWNPcHRpb25zID09PSAnb2JqZWN0Jykge1xuICAgICAgICBsb2FkYWJsZU9wdGlvbnMgPSBfZXh0ZW5kcyh7fSwgbG9hZGFibGVPcHRpb25zLCBkeW5hbWljT3B0aW9ucyk7XG4gICAgfVxuICAgIC8vIFN1cHBvcnQgZm9yIHBhc3Npbmcgb3B0aW9ucywgZWc6IGR5bmFtaWMoaW1wb3J0KCcuLi9oZWxsby13b3JsZCcpLCB7bG9hZGluZzogKCkgPT4gPHA+TG9hZGluZyBzb21ldGhpbmc8L3A+fSlcbiAgICBsb2FkYWJsZU9wdGlvbnMgPSBfZXh0ZW5kcyh7fSwgbG9hZGFibGVPcHRpb25zLCBvcHRpb25zKTtcbiAgICBpZiAobG9hZGFibGVPcHRpb25zLnN1c3BlbnNlKSB7XG4gICAgICAgIGlmIChwcm9jZXNzLmVudi5OT0RFX0VOViAhPT0gJ3Byb2R1Y3Rpb24nKSB7XG4gICAgICAgICAgICAvKipcbiAgICAgICAqIFRPRE86IEN1cnJlbnRseSwgbmV4dC9keW5hbWljIHdpbGwgb3B0LWluIHRvIFJlYWN0LmxhenkgaWYgeyBzdXNwZW5zZTogdHJ1ZSB9IGlzIHVzZWRcbiAgICAgICAqIFJlYWN0IDE4IHdpbGwgYWx3YXlzIHJlc29sdmUgdGhlIFN1c3BlbnNlIGJvdW5kYXJ5IG9uIHRoZSBzZXJ2ZXItc2lkZSwgZWZmZWN0aXZlbHkgaWdub3JpbmcgdGhlIHNzciBvcHRpb25cbiAgICAgICAqXG4gICAgICAgKiBJbiB0aGUgZnV0dXJlLCB3aGVuIFJlYWN0IFN1c3BlbnNlIHdpdGggdGhpcmQtcGFydHkgbGlicmFyaWVzIGlzIHN0YWJsZSwgd2UgY2FuIGltcGxlbWVudCBhIGN1c3RvbSB2ZXJzaW9uIG9mXG4gICAgICAgKiBSZWFjdC5sYXp5IHRoYXQgY2FuIHN1c3BlbnNlIG9uIHRoZSBzZXJ2ZXItc2lkZSB3aGlsZSBvbmx5IGxvYWRpbmcgdGhlIGNvbXBvbmVudCBvbiB0aGUgY2xpZW50LXNpZGVcbiAgICAgICAqLyBpZiAobG9hZGFibGVPcHRpb25zLnNzciA9PT0gZmFsc2UpIHtcbiAgICAgICAgICAgICAgICBjb25zb2xlLndhcm4oYFwic3NyOiBmYWxzZVwiIGlzIGlnbm9yZWQgYnkgbmV4dC9keW5hbWljIGJlY2F1c2UgeW91IGNhbiBub3QgZW5hYmxlIFwic3VzcGVuc2VcIiB3aGlsZSBkaXNhYmxpbmcgXCJzc3JcIiBhdCB0aGUgc2FtZSB0aW1lLiBSZWFkIG1vcmU6IGh0dHBzOi8vbmV4dGpzLm9yZy9kb2NzL21lc3NhZ2VzL2ludmFsaWQtZHluYW1pYy1zdXNwZW5zZWApO1xuICAgICAgICAgICAgfVxuICAgICAgICAgICAgaWYgKGxvYWRhYmxlT3B0aW9ucy5sb2FkaW5nICE9IG51bGwpIHtcbiAgICAgICAgICAgICAgICBjb25zb2xlLndhcm4oYFwibG9hZGluZ1wiIGlzIGlnbm9yZWQgYnkgbmV4dC9keW5hbWljIGJlY2F1c2UgeW91IGhhdmUgZW5hYmxlZCBcInN1c3BlbnNlXCIuIFBsYWNlIHlvdXIgbG9hZGluZyBlbGVtZW50IGluIHlvdXIgc3VzcGVuc2UgYm91bmRhcnkncyBcImZhbGxiYWNrXCIgcHJvcCBpbnN0ZWFkLiBSZWFkIG1vcmU6IGh0dHBzOi8vbmV4dGpzLm9yZy9kb2NzL21lc3NhZ2VzL2ludmFsaWQtZHluYW1pYy1zdXNwZW5zZWApO1xuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICAgIGRlbGV0ZSBsb2FkYWJsZU9wdGlvbnMuc3NyO1xuICAgICAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLmxvYWRpbmc7XG4gICAgfVxuICAgIC8vIGNvbWluZyBmcm9tIGJ1aWxkL2JhYmVsL3BsdWdpbnMvcmVhY3QtbG9hZGFibGUtcGx1Z2luLmpzXG4gICAgaWYgKGxvYWRhYmxlT3B0aW9ucy5sb2FkYWJsZUdlbmVyYXRlZCkge1xuICAgICAgICBsb2FkYWJsZU9wdGlvbnMgPSBfZXh0ZW5kcyh7fSwgbG9hZGFibGVPcHRpb25zLCBsb2FkYWJsZU9wdGlvbnMubG9hZGFibGVHZW5lcmF0ZWQpO1xuICAgICAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLmxvYWRhYmxlR2VuZXJhdGVkO1xuICAgIH1cbiAgICAvLyBzdXBwb3J0IGZvciBkaXNhYmxpbmcgc2VydmVyIHNpZGUgcmVuZGVyaW5nLCBlZzogZHluYW1pYyhpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJyksIHtzc3I6IGZhbHNlfSkuXG4gICAgLy8gc2tpcCBgc3NyYCBmb3Igc3VzcGVuc2UgbW9kZSBhbmQgb3B0LWluIFJlYWN0LmxhenkgZGlyZWN0bHlcbiAgICBpZiAodHlwZW9mIGxvYWRhYmxlT3B0aW9ucy5zc3IgPT09ICdib29sZWFuJyAmJiAhbG9hZGFibGVPcHRpb25zLnN1c3BlbnNlKSB7XG4gICAgICAgIGlmICghbG9hZGFibGVPcHRpb25zLnNzcikge1xuICAgICAgICAgICAgZGVsZXRlIGxvYWRhYmxlT3B0aW9ucy5zc3I7XG4gICAgICAgICAgICByZXR1cm4gbm9TU1IobG9hZGFibGVGbiwgbG9hZGFibGVPcHRpb25zKTtcbiAgICAgICAgfVxuICAgICAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLnNzcjtcbiAgICB9XG4gICAgcmV0dXJuIGxvYWRhYmxlRm4obG9hZGFibGVPcHRpb25zKTtcbn1cbmNvbnN0IGlzU2VydmVyU2lkZSA9IHR5cGVvZiB3aW5kb3cgPT09ICd1bmRlZmluZWQnO1xuZnVuY3Rpb24gbm9TU1IoTG9hZGFibGVJbml0aWFsaXplciwgbG9hZGFibGVPcHRpb25zKSB7XG4gICAgLy8gUmVtb3Zpbmcgd2VicGFjayBhbmQgbW9kdWxlcyBtZWFucyByZWFjdC1sb2FkYWJsZSB3b24ndCB0cnkgcHJlbG9hZGluZ1xuICAgIGRlbGV0ZSBsb2FkYWJsZU9wdGlvbnMud2VicGFjaztcbiAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLm1vZHVsZXM7XG4gICAgLy8gVGhpcyBjaGVjayBpcyBuZWNlc3NhcnkgdG8gcHJldmVudCByZWFjdC1sb2FkYWJsZSBmcm9tIGluaXRpYWxpemluZyBvbiB0aGUgc2VydmVyXG4gICAgaWYgKCFpc1NlcnZlclNpZGUpIHtcbiAgICAgICAgcmV0dXJuIExvYWRhYmxlSW5pdGlhbGl6ZXIobG9hZGFibGVPcHRpb25zKTtcbiAgICB9XG4gICAgY29uc3QgTG9hZGluZyA9IGxvYWRhYmxlT3B0aW9ucy5sb2FkaW5nO1xuICAgIC8vIFRoaXMgd2lsbCBvbmx5IGJlIHJlbmRlcmVkIG9uIHRoZSBzZXJ2ZXIgc2lkZVxuICAgIHJldHVybiAoKT0+LyojX19QVVJFX18qLyBfcmVhY3QuZGVmYXVsdC5jcmVhdGVFbGVtZW50KExvYWRpbmcsIHtcbiAgICAgICAgICAgIGVycm9yOiBudWxsLFxuICAgICAgICAgICAgaXNMb2FkaW5nOiB0cnVlLFxuICAgICAgICAgICAgcGFzdERlbGF5OiBmYWxzZSxcbiAgICAgICAgICAgIHRpbWVkT3V0OiBmYWxzZVxuICAgICAgICB9KTtcbn1cblxuaWYgKCh0eXBlb2YgZXhwb3J0cy5kZWZhdWx0ID09PSAnZnVuY3Rpb24nIHx8ICh0eXBlb2YgZXhwb3J0cy5kZWZhdWx0ID09PSAnb2JqZWN0JyAmJiBleHBvcnRzLmRlZmF1bHQgIT09IG51bGwpKSAmJiB0eXBlb2YgZXhwb3J0cy5kZWZhdWx0Ll9fZXNNb2R1bGUgPT09ICd1bmRlZmluZWQnKSB7XG4gIE9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLmRlZmF1bHQsICdfX2VzTW9kdWxlJywgeyB2YWx1ZTogdHJ1ZSB9KTtcbiAgT2JqZWN0LmFzc2lnbihleHBvcnRzLmRlZmF1bHQsIGV4cG9ydHMpO1xuICBtb2R1bGUuZXhwb3J0cyA9IGV4cG9ydHMuZGVmYXVsdDtcbn1cblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9ZHluYW1pYy5qcy5tYXAiXSwibmFtZXMiOlsiT2JqZWN0IiwiZGVmaW5lUHJvcGVydHkiLCJleHBvcnRzIiwidmFsdWUiLCJkZWZhdWx0IiwiZHluYW1pYyIsIm5vU1NSIiwiX2V4dGVuZHMiLCJyZXF1aXJlIiwiX2ludGVyb3BfcmVxdWlyZV9kZWZhdWx0IiwiX3JlYWN0IiwiX2xvYWRhYmxlIiwiZHluYW1pY09wdGlvbnMiLCJvcHRpb25zIiwibG9hZGFibGVGbiIsImxvYWRhYmxlT3B0aW9ucyIsInN1c3BlbnNlIiwibG9hZGluZyIsImVycm9yIiwiaXNMb2FkaW5nIiwicGFzdERlbGF5IiwicHJvY2VzcyIsImNyZWF0ZUVsZW1lbnQiLCJtZXNzYWdlIiwic3RhY2siLCJQcm9taXNlIiwibG9hZGVyIiwic3NyIiwiY29uc29sZSIsIndhcm4iLCJsb2FkYWJsZUdlbmVyYXRlZCIsImlzU2VydmVyU2lkZSIsIkxvYWRhYmxlSW5pdGlhbGl6ZXIiLCJ3ZWJwYWNrIiwibW9kdWxlcyIsIkxvYWRpbmciLCJ0aW1lZE91dCIsIl9fZXNNb2R1bGUiLCJhc3NpZ24iLCJtb2R1bGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/next/dist/shared/lib/dynamic.js\n");
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+exports["default"] = dynamic;
+exports.noSSR = noSSR;
+var _extends = (__webpack_require__(6495)/* ["default"] */ .Z);
+var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
+var _react = _interop_require_default(__webpack_require__(6689));
+var _loadable = _interop_require_default(__webpack_require__(5832));
+function dynamic(dynamicOptions, options) {
+    let loadableFn = _loadable.default;
+    let loadableOptions = (options == null ? void 0 : options.suspense) ? {} : {
+        // A loading component is not required, so we default it
+        loading: ({ error , isLoading , pastDelay  })=>{
+            if (!pastDelay) return null;
+            if (false) {}
+            return null;
+        }
+    };
+    // Support for direct import(), eg: dynamic(import('../hello-world'))
+    // Note that this is only kept for the edge case where someone is passing in a promise as first argument
+    // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))
+    // To make sure we don't execute the import without rendering first
+    if (dynamicOptions instanceof Promise) {
+        loadableOptions.loader = ()=>dynamicOptions;
+    // Support for having import as a function, eg: dynamic(() => import('../hello-world'))
+    } else if (typeof dynamicOptions === "function") {
+        loadableOptions.loader = dynamicOptions;
+    // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})
+    } else if (typeof dynamicOptions === "object") {
+        loadableOptions = _extends({}, loadableOptions, dynamicOptions);
+    }
+    // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})
+    loadableOptions = _extends({}, loadableOptions, options);
+    if (loadableOptions.suspense) {
+        if (false) {}
+        delete loadableOptions.ssr;
+        delete loadableOptions.loading;
+    }
+    // coming from build/babel/plugins/react-loadable-plugin.js
+    if (loadableOptions.loadableGenerated) {
+        loadableOptions = _extends({}, loadableOptions, loadableOptions.loadableGenerated);
+        delete loadableOptions.loadableGenerated;
+    }
+    // support for disabling server side rendering, eg: dynamic(import('../hello-world'), {ssr: false}).
+    // skip `ssr` for suspense mode and opt-in React.lazy directly
+    if (typeof loadableOptions.ssr === "boolean" && !loadableOptions.suspense) {
+        if (!loadableOptions.ssr) {
+            delete loadableOptions.ssr;
+            return noSSR(loadableFn, loadableOptions);
+        }
+        delete loadableOptions.ssr;
+    }
+    return loadableFn(loadableOptions);
+}
+const isServerSide = "undefined" === "undefined";
+function noSSR(LoadableInitializer, loadableOptions) {
+    // Removing webpack and modules means react-loadable won't try preloading
+    delete loadableOptions.webpack;
+    delete loadableOptions.modules;
+    // This check is necessary to prevent react-loadable from initializing on the server
+    if (!isServerSide) {
+        return LoadableInitializer(loadableOptions);
+    }
+    const Loading = loadableOptions.loading;
+    // This will only be rendered on the server side
+    return ()=>/*#__PURE__*/ _react.default.createElement(Loading, {
+            error: null,
+            isLoading: true,
+            pastDelay: false,
+            timedOut: false
+        });
+}
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=dynamic.js.map
+
 
 /***/ }),
 
-/***/ "./pages/_app.tsx":
-/*!************************!*\
-  !*** ./pages/_app.tsx ***!
-  \************************/
+/***/ 3847:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\verhe\\\\OneDrive\\\\Uni\\\\AI3\\\\NDL\\\\LIVE\\\\musicam-io\\\\musicam-react\\\\pages\\\\_app.tsx\",\n        lineNumber: 6,\n        columnNumber: 10\n    }, this);\n}\n// Turn off server-side rendering to remove the flash of unstyled content (FOUC)\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(()=>Promise.resolve(MyApp), {\n    ssr: false\n})); //export default MyApp\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7QUFBOEI7QUFFSztBQUVuQyxTQUFTQyxNQUFNLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFZLEVBQUU7SUFDakQscUJBQU8sOERBQUNEO1FBQVcsR0FBR0MsU0FBUzs7Ozs7O0FBQ2pDO0FBRUEsZ0ZBQWdGO0FBQ2hGLGlFQUFlSCxtREFBT0EsQ0FBQyxJQUFNSSxRQUFRQyxPQUFPLENBQUNKLFFBQVE7SUFDbkRLLEtBQUssS0FBSztBQUNaLEVBQUUsRUFBQyxDQUVILHNCQUFzQiIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3BhZ2VzL19hcHAudHN4PzJmYmUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICcuLi9zdHlsZXMvZ2xvYmFscy5jc3MnXHJcbmltcG9ydCB0eXBlIHsgQXBwUHJvcHMgfSBmcm9tICduZXh0L2FwcCdcclxuaW1wb3J0IGR5bmFtaWMgZnJvbSAnbmV4dC9keW5hbWljJztcclxuXHJcbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfTogQXBwUHJvcHMpIHtcclxuICByZXR1cm4gPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxyXG59XHJcblxyXG4vLyBUdXJuIG9mZiBzZXJ2ZXItc2lkZSByZW5kZXJpbmcgdG8gcmVtb3ZlIHRoZSBmbGFzaCBvZiB1bnN0eWxlZCBjb250ZW50IChGT1VDKVxyXG5leHBvcnQgZGVmYXVsdCBkeW5hbWljKCgpID0+IFByb21pc2UucmVzb2x2ZShNeUFwcCksIHtcclxuICBzc3I6IGZhbHNlLFxyXG59KTtcclxuXHJcbi8vZXhwb3J0IGRlZmF1bHQgTXlBcHBcclxuIl0sIm5hbWVzIjpbImR5bmFtaWMiLCJNeUFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsIlByb21pc2UiLCJyZXNvbHZlIiwic3NyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6764);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5152);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+function MyApp({ Component , pageProps  }) {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+        ...pageProps
+    });
+}
+// Turn off server-side rendering to remove the flash of unstyled content (FOUC)
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(()=>Promise.resolve(MyApp), {
+    ssr: false
+})); //export default MyApp
+
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
+/***/ 6764:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "./node_modules/next/dynamic.js":
-/*!**************************************!*\
-  !*** ./node_modules/next/dynamic.js ***!
-  \**************************************/
+/***/ 5152:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__(/*! ./dist/shared/lib/dynamic */ \"./node_modules/next/dist/shared/lib/dynamic.js\")\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9keW5hbWljLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBLHVIQUFxRCIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL25vZGVfbW9kdWxlcy9uZXh0L2R5bmFtaWMuanM/NzNkNCJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoJy4vZGlzdC9zaGFyZWQvbGliL2R5bmFtaWMnKVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/next/dynamic.js\n");
+module.exports = __webpack_require__(7645)
+
 
 /***/ }),
 
-/***/ "./loadable":
-/*!***************************************************!*\
-  !*** external "next/dist/shared/lib/loadable.js" ***!
-  \***************************************************/
+/***/ 5832:
 /***/ ((module) => {
 
 "use strict";
@@ -87,10 +146,7 @@ module.exports = require("next/dist/shared/lib/loadable.js");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -98,14 +154,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -116,7 +169,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [735], () => (__webpack_exec__(3847)));
 module.exports = __webpack_exports__;
 
 })();
