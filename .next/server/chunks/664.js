@@ -11,7 +11,26 @@ var __webpack_unused_export__;
 __webpack_unused_export__ = ({
     value: true
 });
-exports.Z = _asyncToGenerator;
+Object.defineProperty(exports, "Z", ({
+    enumerable: true,
+    get: function() {
+        return _asyncToGenerator;
+    }
+}));
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+    try {
+        var info = gen[key](arg);
+        var value = info.value;
+    } catch (error) {
+        reject(error);
+        return;
+    }
+    if (info.done) {
+        resolve(value);
+    } else {
+        Promise.resolve(value).then(_next, _throw);
+    }
+}
 function _asyncToGenerator(fn) {
     return function() {
         var self = this, args = arguments;
@@ -27,123 +46,6 @@ function _asyncToGenerator(fn) {
         });
     };
 }
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
-    try {
-        var info = gen[key](arg);
-        var value = info.value;
-    } catch (error) {
-        reject(error);
-        return;
-    }
-    if (info.done) {
-        resolve(value);
-    } else {
-        Promise.resolve(value).then(_next, _throw);
-    }
-}
-
-
-/***/ }),
-
-/***/ 6495:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-var __webpack_unused_export__;
-
-__webpack_unused_export__ = ({
-    value: true
-});
-exports.Z = _extends;
-function _extends() {
-    return extends_.apply(this, arguments);
-}
-function extends_() {
-    extends_ = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source){
-                if (Object.prototype.hasOwnProperty.call(source, key)) {
-                    target[key] = source[key];
-                }
-            }
-        }
-        return target;
-    };
-    return extends_.apply(this, arguments);
-}
-
-
-/***/ }),
-
-/***/ 2648:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-var __webpack_unused_export__;
-
-__webpack_unused_export__ = ({
-    value: true
-});
-exports.Z = _interopRequireDefault;
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        default: obj
-    };
-}
-
-
-/***/ }),
-
-/***/ 1598:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-var __webpack_unused_export__;
-
-__webpack_unused_export__ = ({
-    value: true
-});
-exports.Z = _interopRequireWildcard;
-function _interopRequireWildcard(obj, nodeInterop) {
-    if (!nodeInterop && obj && obj.__esModule) {
-        return obj;
-    }
-    if (obj === null || typeof obj !== "object" && typeof obj !== "function") {
-        return {
-            default: obj
-        };
-    }
-    var cache = _getRequireWildcardCache(nodeInterop);
-    if (cache && cache.has(obj)) {
-        return cache.get(obj);
-    }
-    var newObj = {};
-    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
-    for(var key in obj){
-        if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
-            var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
-            if (desc && (desc.get || desc.set)) {
-                Object.defineProperty(newObj, key, desc);
-            } else {
-                newObj[key] = obj[key];
-            }
-        }
-    }
-    newObj.default = obj;
-    if (cache) {
-        cache.set(obj, newObj);
-    }
-    return newObj;
-}
-function _getRequireWildcardCache(nodeInterop1) {
-    if (typeof WeakMap !== "function") return null;
-    var cacheBabelInterop = new WeakMap();
-    var cacheNodeInterop = new WeakMap();
-    return (_getRequireWildcardCache = function(nodeInterop) {
-        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
-    })(nodeInterop1);
-}
 
 
 /***/ }),
@@ -157,7 +59,12 @@ var __webpack_unused_export__;
 __webpack_unused_export__ = ({
     value: true
 });
-exports.Z = _objectWithoutPropertiesLoose;
+Object.defineProperty(exports, "Z", ({
+    enumerable: true,
+    get: function() {
+        return _objectWithoutPropertiesLoose;
+    }
+}));
 function _objectWithoutPropertiesLoose(source, excluded) {
     if (source == null) return {};
     var target = {};
@@ -174,7 +81,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
-/***/ 8684:
+/***/ 3468:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -184,7 +91,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.addBasePath = addBasePath;
 var _addPathPrefix = __webpack_require__(1751);
-var _normalizeTrailingSlash = __webpack_require__(2392);
+var _normalizeTrailingSlash = __webpack_require__(2700);
 const basePath =  false || "";
 function addBasePath(path, required) {
     if (false) {}
@@ -201,7 +108,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 2725:
+/***/ 4465:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -210,7 +117,7 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports.addLocale = void 0;
-var _normalizeTrailingSlash = __webpack_require__(2392);
+var _normalizeTrailingSlash = __webpack_require__(2700);
 const addLocale = (path, ...args)=>{
     if (false) {}
     return path;
@@ -227,7 +134,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 8748:
+/***/ 4643:
 /***/ ((module, exports) => {
 
 "use strict";
@@ -251,7 +158,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 1210:
+/***/ 227:
 /***/ ((module, exports) => {
 
 "use strict";
@@ -277,7 +184,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 4119:
+/***/ 928:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -302,7 +209,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 6007:
+/***/ 1831:
 /***/ ((module, exports) => {
 
 "use strict";
@@ -435,12 +342,12 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 8418:
+/***/ 1551:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
 
-"client";
+"use client";
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
@@ -448,18 +355,34 @@ exports["default"] = void 0;
 var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
 var _object_without_properties_loose = (__webpack_require__(7273)/* ["default"] */ .Z);
 var _react = _interop_require_default(__webpack_require__(6689));
-var _router = __webpack_require__(6273);
-var _addLocale = __webpack_require__(2725);
+var _router = __webpack_require__(1003);
+var _formatUrl = __webpack_require__(3938);
+var _addLocale = __webpack_require__(4465);
 var _routerContext = __webpack_require__(4964);
 var _appRouterContext = __webpack_require__(3280);
-var _useIntersection = __webpack_require__(7190);
-var _getDomainLocale = __webpack_require__(1210);
-var _addBasePath = __webpack_require__(8684);
-"client";
-const prefetched = {};
+var _useIntersection = __webpack_require__(9246);
+var _getDomainLocale = __webpack_require__(227);
+var _addBasePath = __webpack_require__(3468);
+const prefetched = new Set();
 function prefetch(router, href, as, options) {
-    if (true) return;
-    if (!(0, _router).isLocalURL(href)) return;
+    if (true) {
+        return;
+    }
+    if (!(0, _router).isLocalURL(href)) {
+        return;
+    }
+    // We should only dedupe requests when experimental.optimisticClientCache is
+    // disabled.
+    if (!options.bypassPrefetchedCheck) {
+        const locale = typeof options.locale !== "undefined" ? options.locale : "locale" in router ? router.locale : undefined;
+        const prefetchedKey = href + "%" + as + "%" + locale;
+        // If we've already fetched the key, then don't prefetch it again!
+        if (prefetched.has(prefetchedKey)) {
+            return;
+        }
+        // Mark this URL as prefetched.
+        prefetched.add(prefetchedKey);
+    }
     // Prefetch the JSON page if asked (only in the client)
     // We need to handle a prefetch error here since we may be
     // loading with priority which can reject but we don't
@@ -467,9 +390,6 @@ function prefetch(router, href, as, options) {
     Promise.resolve(router.prefetch(href, as, options)).catch((err)=>{
         if (false) {}
     });
-    const curLocale = options && typeof options.locale !== "undefined" ? options.locale : router && router.locale;
-    // Join on an invalid URI character
-    prefetched[href + "%" + as + (curLocale ? "%" + curLocale : "")] = true;
 }
 function isModifiedEvent(event) {
     const { target  } = event.currentTarget;
@@ -493,9 +413,7 @@ function linkClicked(e, router, href, as, replace, shallow, scroll, locale, isAp
                 scroll
             });
         } else {
-            // If `beforePopState` doesn't exist on the router it's the AppRouter.
-            const method = replace ? "replace" : "push";
-            router[method](href, {
+            router[replace ? "replace" : "push"](as || href, {
                 forceOptimisticNavigation: !prefetchEnabled
             });
         }
@@ -507,10 +425,18 @@ function linkClicked(e, router, href, as, replace, shallow, scroll, locale, isAp
         navigate();
     }
 }
-const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(props, forwardedRef) {
+function formatStringOrUrl(urlObjOrString) {
+    if (typeof urlObjOrString === "string") {
+        return urlObjOrString;
+    }
+    return (0, _formatUrl).formatUrl(urlObjOrString);
+}
+/**
+ * React Component that enables client-side transitions between routes.
+ */ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(props, forwardedRef) {
     if (false) {}
     let children;
-    const { href: hrefProp , as: asProp , children: childrenProp , prefetch: prefetchProp , passHref , replace , shallow , scroll , locale , onClick , onMouseEnter , onTouchStart , legacyBehavior =Boolean(false) !== true  } = props, restProps = _object_without_properties_loose(props, [
+    const { href: hrefProp , as: asProp , children: childrenProp , prefetch: prefetchProp , passHref , replace , shallow , scroll , locale , onClick , onMouseEnter: onMouseEnterProp , onTouchStart: onTouchStartProp , legacyBehavior =true === false  } = props, restProps = _object_without_properties_loose(props, [
         "href",
         "as",
         "children",
@@ -529,25 +455,32 @@ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(prop
     if (legacyBehavior && (typeof children === "string" || typeof children === "number")) {
         children = /*#__PURE__*/ _react.default.createElement("a", null, children);
     }
-    const p = prefetchProp !== false;
-    let router = _react.default.useContext(_routerContext.RouterContext);
-    // TODO-APP: type error. Remove `as any`
+    const prefetchEnabled = prefetchProp !== false;
+    const pagesRouter = _react.default.useContext(_routerContext.RouterContext);
     const appRouter = _react.default.useContext(_appRouterContext.AppRouterContext);
-    if (appRouter) {
-        router = appRouter;
-    }
-    const { href , as  } = _react.default.useMemo(()=>{
-        const [resolvedHref, resolvedAs] = (0, _router).resolveHref(router, hrefProp, true);
+    const router = pagesRouter != null ? pagesRouter : appRouter;
+    // We're in the app directory if there is no pages router.
+    const isAppRouter = !pagesRouter;
+    if (false) {}
+    const { href: href1 , as  } = _react.default.useMemo(()=>{
+        if (!pagesRouter) {
+            const resolvedHref = formatStringOrUrl(hrefProp);
+            return {
+                href: resolvedHref,
+                as: asProp ? formatStringOrUrl(asProp) : resolvedHref
+            };
+        }
+        const [resolvedHref1, resolvedAs] = (0, _router).resolveHref(pagesRouter, hrefProp, true);
         return {
-            href: resolvedHref,
-            as: asProp ? (0, _router).resolveHref(router, asProp) : resolvedAs || resolvedHref
+            href: resolvedHref1,
+            as: asProp ? (0, _router).resolveHref(pagesRouter, asProp) : resolvedAs || resolvedHref1
         };
     }, [
-        router,
+        pagesRouter,
         hrefProp,
         asProp
     ]);
-    const previousHref = _react.default.useRef(href);
+    const previousHref = _react.default.useRef(href1);
     const previousAs = _react.default.useRef(as);
     // This will return the first child, if multiple are provided it will throw an error
     let child;
@@ -555,6 +488,8 @@ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(prop
         if (false) {} else {
             child = _react.default.Children.only(children);
         }
+    } else {
+        if (false) { var ref; }
     }
     const childRef = legacyBehavior ? child && typeof child === "object" && child.ref : forwardedRef;
     const [setIntersectionRef, isVisible, resetVisible] = (0, _useIntersection).useIntersection({
@@ -562,10 +497,10 @@ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(prop
     });
     const setRef = _react.default.useCallback((el)=>{
         // Before the link getting observed, check if visible state need to be reset
-        if (previousAs.current !== as || previousHref.current !== href) {
+        if (previousAs.current !== as || previousHref.current !== href1) {
             resetVisible();
             previousAs.current = as;
-            previousHref.current = href;
+            previousHref.current = href1;
         }
         setIntersectionRef(el);
         if (childRef) {
@@ -577,30 +512,35 @@ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(prop
     }, [
         as,
         childRef,
-        href,
+        href1,
         resetVisible,
         setIntersectionRef
     ]);
+    // Prefetch the URL if we haven't already and it's visible.
     _react.default.useEffect(()=>{
-        const shouldPrefetch = isVisible && p && (0, _router).isLocalURL(href);
-        const curLocale = typeof locale !== "undefined" ? locale : router && router.locale;
-        const isPrefetched = prefetched[href + "%" + as + (curLocale ? "%" + curLocale : "")];
-        if (shouldPrefetch && !isPrefetched) {
-            prefetch(router, href, as, {
-                locale: curLocale
-            });
+        if (!router) {
+            return;
         }
+        // If we don't need to prefetch the URL, don't do prefetch.
+        if (!isVisible || !prefetchEnabled) {
+            return;
+        }
+        // Prefetch the URL.
+        prefetch(router, href1, as, {
+            locale
+        });
     }, [
         as,
-        href,
+        href1,
         isVisible,
         locale,
-        p,
+        prefetchEnabled,
+        pagesRouter == null ? void 0 : pagesRouter.locale,
         router
     ]);
     const childProps = {
         ref: setRef,
-        onClick: (e)=>{
+        onClick (e) {
             if (false) {}
             if (!legacyBehavior && typeof onClick === "function") {
                 onClick(e);
@@ -608,51 +548,63 @@ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(prop
             if (legacyBehavior && child.props && typeof child.props.onClick === "function") {
                 child.props.onClick(e);
             }
-            if (!e.defaultPrevented) {
-                linkClicked(e, router, href, as, replace, shallow, scroll, locale, Boolean(appRouter), p);
+            if (!router) {
+                return;
             }
+            if (e.defaultPrevented) {
+                return;
+            }
+            linkClicked(e, router, href1, as, replace, shallow, scroll, locale, isAppRouter, prefetchEnabled);
         },
-        onMouseEnter: (e)=>{
-            if (!legacyBehavior && typeof onMouseEnter === "function") {
-                onMouseEnter(e);
+        onMouseEnter (e) {
+            if (!legacyBehavior && typeof onMouseEnterProp === "function") {
+                onMouseEnterProp(e);
             }
             if (legacyBehavior && child.props && typeof child.props.onMouseEnter === "function") {
                 child.props.onMouseEnter(e);
             }
-            // Check for not prefetch disabled in page using appRouter
-            if (!(!p && appRouter)) {
-                if ((0, _router).isLocalURL(href)) {
-                    prefetch(router, href, as, {
-                        priority: true
-                    });
-                }
+            if (!router) {
+                return;
             }
+            if (!prefetchEnabled && isAppRouter) {
+                return;
+            }
+            prefetch(router, href1, as, {
+                locale,
+                priority: true,
+                // @see {https://github.com/vercel/next.js/discussions/40268?sort=top#discussioncomment-3572642}
+                bypassPrefetchedCheck: true
+            });
         },
-        onTouchStart: (e)=>{
-            if (!legacyBehavior && typeof onTouchStart === "function") {
-                onTouchStart(e);
+        onTouchStart (e) {
+            if (!legacyBehavior && typeof onTouchStartProp === "function") {
+                onTouchStartProp(e);
             }
             if (legacyBehavior && child.props && typeof child.props.onTouchStart === "function") {
                 child.props.onTouchStart(e);
             }
-            // Check for not prefetch disabled in page using appRouter
-            if (!(!p && appRouter)) {
-                if ((0, _router).isLocalURL(href)) {
-                    prefetch(router, href, as, {
-                        priority: true
-                    });
-                }
+            if (!router) {
+                return;
             }
+            if (!prefetchEnabled && isAppRouter) {
+                return;
+            }
+            prefetch(router, href1, as, {
+                locale,
+                priority: true,
+                // @see {https://github.com/vercel/next.js/discussions/40268?sort=top#discussioncomment-3572642}
+                bypassPrefetchedCheck: true
+            });
         }
     };
     // If child is an <a> tag and doesn't have a href attribute, or if the 'passHref' property is
     // defined, we specify the current 'href', so that repetition is not needed by the user
     if (!legacyBehavior || passHref || child.type === "a" && !("href" in child.props)) {
-        const curLocale = typeof locale !== "undefined" ? locale : router && router.locale;
+        const curLocale = typeof locale !== "undefined" ? locale : pagesRouter == null ? void 0 : pagesRouter.locale;
         // we only render domain locales if we are currently on a domain locale
         // so that locale links are still visitable in development/preview envs
-        const localeDomain = router && router.isLocaleDomain && (0, _getDomainLocale).getDomainLocale(as, curLocale, router.locales, router.domainLocales);
-        childProps.href = localeDomain || (0, _addBasePath).addBasePath((0, _addLocale).addLocale(as, curLocale, router && router.defaultLocale));
+        const localeDomain = (pagesRouter == null ? void 0 : pagesRouter.isLocaleDomain) && (0, _getDomainLocale).getDomainLocale(as, curLocale, pagesRouter == null ? void 0 : pagesRouter.locales, pagesRouter == null ? void 0 : pagesRouter.domainLocales);
+        childProps.href = localeDomain || (0, _addBasePath).addBasePath((0, _addLocale).addLocale(as, curLocale, pagesRouter == null ? void 0 : pagesRouter.defaultLocale));
     }
     return legacyBehavior ? /*#__PURE__*/ _react.default.cloneElement(child, childProps) : /*#__PURE__*/ _react.default.createElement("a", Object.assign({}, restProps, childProps), children);
 });
@@ -669,7 +621,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 2392:
+/***/ 2700:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -681,7 +633,7 @@ exports.normalizePathTrailingSlash = void 0;
 var _removeTrailingSlash = __webpack_require__(3297);
 var _parsePath = __webpack_require__(8854);
 const normalizePathTrailingSlash = (path)=>{
-    if (!path.startsWith("/")) {
+    if (!path.startsWith("/") || undefined) {
         return path;
     }
     const { pathname , query , hash  } = (0, _parsePath).parsePath(path);
@@ -700,7 +652,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 9320:
+/***/ 2813:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -709,7 +661,7 @@ Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
 exports.removeBasePath = removeBasePath;
-var _hasBasePath = __webpack_require__(4119);
+var _hasBasePath = __webpack_require__(928);
 const basePath =  false || "";
 function removeBasePath(path) {
     if (false) {}
@@ -728,7 +680,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 5776:
+/***/ 6876:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -753,7 +705,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 9311:
+/***/ 4686:
 /***/ ((module, exports) => {
 
 "use strict";
@@ -764,7 +716,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports.cancelIdleCallback = exports.requestIdleCallback = void 0;
 const requestIdleCallback = typeof self !== "undefined" && self.requestIdleCallback && self.requestIdleCallback.bind(window) || function(cb) {
     let start = Date.now();
-    return setTimeout(function() {
+    return self.setTimeout(function() {
         cb({
             didTimeout: false,
             timeRemaining: function() {
@@ -789,7 +741,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 2669:
+/***/ 2497:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -803,8 +755,8 @@ exports.getClientBuildManifest = getClientBuildManifest;
 exports.createRouteLoader = createRouteLoader;
 var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
 var _getAssetPathFromRoute = _interop_require_default(__webpack_require__(9565));
-var _trustedTypes = __webpack_require__(4991);
-var _requestIdleCallback = __webpack_require__(9311);
+var _trustedTypes = __webpack_require__(5407);
+var _requestIdleCallback = __webpack_require__(4686);
 // 3.8s was arbitrarily chosen as it's what https://web.dev/interactive
 // considers as "Good" time-to-interactive. We must assume something went
 // wrong beyond this point, and then fall-back to a full page transition to
@@ -832,6 +784,13 @@ function withFuture(key, map, generator) {
         throw err;
     }) : prom;
 }
+const ASSET_LOAD_ERROR = Symbol("ASSET_LOAD_ERROR");
+function markAssetError(err) {
+    return Object.defineProperty(err, ASSET_LOAD_ERROR, {});
+}
+function isAssetError(err) {
+    return err && ASSET_LOAD_ERROR in err;
+}
 function hasPrefetch(link) {
     try {
         link = document.createElement("link");
@@ -843,32 +802,25 @@ function hasPrefetch(link) {
 }
 const canPrefetch = hasPrefetch();
 function prefetchViaDom(href, as, link) {
-    return new Promise((res, rej)=>{
+    return new Promise((resolve, reject)=>{
         const selector = `
       link[rel="prefetch"][href^="${href}"],
       link[rel="preload"][href^="${href}"],
       script[src^="${href}"]`;
         if (document.querySelector(selector)) {
-            return res();
+            return resolve();
         }
         link = document.createElement("link");
         // The order of property assignment here is intentional:
         if (as) link.as = as;
         link.rel = `prefetch`;
         link.crossOrigin = undefined;
-        link.onload = res;
-        link.onerror = rej;
+        link.onload = resolve;
+        link.onerror = ()=>reject(markAssetError(new Error(`Failed to prefetch: ${href}`)));
         // `href` should always be last:
         link.href = href;
         document.head.appendChild(link);
     });
-}
-const ASSET_LOAD_ERROR = Symbol("ASSET_LOAD_ERROR");
-function markAssetError(err) {
-    return Object.defineProperty(err, ASSET_LOAD_ERROR, {});
-}
-function isAssetError(err) {
-    return err && ASSET_LOAD_ERROR in err;
 }
 function appendScript(src, script) {
     return new Promise((resolve, reject)=>{
@@ -1015,7 +967,7 @@ function createRouteLoader(assetPrefix) {
                 return resolvePromiseWithTimeout(getFilesForRoute(assetPrefix, route).then(({ scripts , css  })=>{
                     return Promise.all([
                         entrypoints.has(route) ? [] : Promise.all(scripts.map(maybeExecuteScript)),
-                        Promise.all(css.map(fetchStyleSheet)), 
+                        Promise.all(css.map(fetchStyleSheet))
                     ]);
                 }).then((res)=>{
                     return this.whenEntrypoint(route).then((entrypoint)=>({
@@ -1065,12 +1017,12 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 699:
+/***/ 3573:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
 
-"client";
+"use client";
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
@@ -1078,13 +1030,14 @@ exports.handleClientScriptLoad = handleClientScriptLoad;
 exports.initScriptLoader = initScriptLoader;
 exports["default"] = void 0;
 var _extends = (__webpack_require__(6495)/* ["default"] */ .Z);
+var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
 var _interop_require_wildcard = (__webpack_require__(1598)/* ["default"] */ .Z);
 var _object_without_properties_loose = (__webpack_require__(7273)/* ["default"] */ .Z);
+var _reactDom = _interop_require_default(__webpack_require__(6405));
 var _react = _interop_require_wildcard(__webpack_require__(6689));
 var _headManagerContext = __webpack_require__(2796);
-var _headManager = __webpack_require__(6007);
-var _requestIdleCallback = __webpack_require__(9311);
-"client";
+var _headManager = __webpack_require__(1831);
+var _requestIdleCallback = __webpack_require__(4686);
 const ScriptCache = new Map();
 const LoadCache = new Set();
 const ignoreProps = [
@@ -1093,10 +1046,10 @@ const ignoreProps = [
     "dangerouslySetInnerHTML",
     "children",
     "onError",
-    "strategy", 
+    "strategy"
 ];
 const loadScript = (props)=>{
-    const { src , id , onLoad =()=>{} , onReady =null , dangerouslySetInnerHTML , children ="" , strategy ="afterInteractive" , onError ,  } = props;
+    const { src , id , onLoad =()=>{} , onReady =null , dangerouslySetInnerHTML , children ="" , strategy ="afterInteractive" , onError  } = props;
     const cacheKey = id || src;
     // Script has already loaded
     if (cacheKey && LoadCache.has(cacheKey)) {
@@ -1182,7 +1135,7 @@ function loadLazyScript(props) {
 function addBeforeInteractiveToCache() {
     const scripts = [
         ...document.querySelectorAll('[data-nscript="beforeInteractive"]'),
-        ...document.querySelectorAll('[data-nscript="beforePageRender"]'), 
+        ...document.querySelectorAll('[data-nscript="beforePageRender"]')
     ];
     scripts.forEach((script)=>{
         const cacheKey = script.id || script.getAttribute("src");
@@ -1203,7 +1156,7 @@ function Script(props) {
         "onError"
     ]);
     // Context is available only during SSR
-    const { updateScripts , scripts , getIsSsr  } = (0, _react).useContext(_headManagerContext.HeadManagerContext);
+    const { updateScripts , scripts , getIsSsr , appDir , nonce  } = (0, _react).useContext(_headManagerContext.HeadManagerContext);
     /**
    * - First mount:
    *   1. The useEffect for onReady executes
@@ -1267,7 +1220,7 @@ function Script(props) {
                     onLoad,
                     onReady,
                     onError
-                }, restProps), 
+                }, restProps)
             ]);
             updateScripts(scripts);
         } else if (getIsSsr && getIsSsr()) {
@@ -1275,6 +1228,54 @@ function Script(props) {
             LoadCache.add(id || src);
         } else if (getIsSsr && !getIsSsr()) {
             loadScript(props);
+        }
+    }
+    // For the app directory, we need React Float to preload these scripts.
+    if (appDir) {
+        // Before interactive scripts need to be loaded by Next.js' runtime instead
+        // of native <script> tags, because they no longer have `defer`.
+        if (strategy === "beforeInteractive") {
+            if (!src) {
+                // For inlined scripts, we put the content in `children`.
+                if (restProps.dangerouslySetInnerHTML) {
+                    restProps.children = restProps.dangerouslySetInnerHTML.__html;
+                    delete restProps.dangerouslySetInnerHTML;
+                }
+                return /*#__PURE__*/ _react.default.createElement("script", {
+                    nonce: nonce,
+                    dangerouslySetInnerHTML: {
+                        __html: `(self.__next_s=self.__next_s||[]).push(${JSON.stringify([
+                            0,
+                            _extends({}, restProps)
+                        ])})`
+                    }
+                });
+            }
+            // @ts-ignore
+            _reactDom.default.preload(src, restProps.integrity ? {
+                as: "script",
+                integrity: restProps.integrity
+            } : {
+                as: "script"
+            });
+            return /*#__PURE__*/ _react.default.createElement("script", {
+                nonce: nonce,
+                dangerouslySetInnerHTML: {
+                    __html: `(self.__next_s=self.__next_s||[]).push(${JSON.stringify([
+                        src
+                    ])})`
+                }
+            });
+        } else if (strategy === "afterInteractive") {
+            if (src) {
+                // @ts-ignore
+                _reactDom.default.preload(src, restProps.integrity ? {
+                    as: "script",
+                    integrity: restProps.integrity
+                } : {
+                    as: "script"
+                });
+            }
         }
     }
     return null;
@@ -1295,7 +1296,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 4991:
+/***/ 5407:
 /***/ ((module, exports) => {
 
 "use strict";
@@ -1330,7 +1331,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 7190:
+/***/ 9246:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1340,7 +1341,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.useIntersection = useIntersection;
 var _react = __webpack_require__(6689);
-var _requestIdleCallback = __webpack_require__(9311);
+var _requestIdleCallback = __webpack_require__(4686);
 const hasIntersectionObserver = typeof IntersectionObserver === "function";
 const observers = new Map();
 const idList = [];
@@ -1441,7 +1442,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 6273:
+/***/ 1003:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1459,10 +1460,10 @@ var _async_to_generator = (__webpack_require__(932)/* ["default"] */ .Z);
 var _extends = (__webpack_require__(6495)/* ["default"] */ .Z);
 var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
 var _interop_require_wildcard = (__webpack_require__(1598)/* ["default"] */ .Z);
-var _normalizeTrailingSlash = __webpack_require__(2392);
+var _normalizeTrailingSlash = __webpack_require__(2700);
 var _removeTrailingSlash = __webpack_require__(3297);
-var _routeLoader = __webpack_require__(2669);
-var _script = __webpack_require__(699);
+var _routeLoader = __webpack_require__(2497);
+var _script = __webpack_require__(3573);
 var _isError = _interop_require_wildcard(__webpack_require__(676));
 var _denormalizePagePath = __webpack_require__(4406);
 var _normalizeLocalePath = __webpack_require__(4014);
@@ -1475,13 +1476,13 @@ var _resolveRewrites = _interop_require_default(__webpack_require__(6052));
 var _routeMatcher = __webpack_require__(4226);
 var _routeRegex = __webpack_require__(5052);
 var _formatUrl = __webpack_require__(3938);
-var _detectDomainLocale = __webpack_require__(8748);
+var _detectDomainLocale = __webpack_require__(4643);
 var _parsePath = __webpack_require__(8854);
-var _addLocale = __webpack_require__(2725);
-var _removeLocale = __webpack_require__(5776);
-var _removeBasePath = __webpack_require__(9320);
-var _addBasePath = __webpack_require__(8684);
-var _hasBasePath = __webpack_require__(4119);
+var _addLocale = __webpack_require__(4465);
+var _removeLocale = __webpack_require__(6876);
+var _removeBasePath = __webpack_require__(2813);
+var _addBasePath = __webpack_require__(3468);
+var _hasBasePath = __webpack_require__(928);
 var _getNextPathnameInfo = __webpack_require__(5789);
 var _formatNextPathnameInfo = __webpack_require__(299);
 var _compareStates = __webpack_require__(6220);
@@ -1681,7 +1682,7 @@ function getMiddlewareData(source, response, options) {
             let fsPathname = (0, _removeTrailingSlash).removeTrailingSlash(pathnameInfo.pathname);
             return Promise.all([
                 options.router.pageLoader.getPageList(),
-                (0, _routeLoader).getClientBuildManifest(), 
+                (0, _routeLoader).getClientBuildManifest()
             ]).then(([pages, { __rewrites: rewrites  }])=>{
                 let as = (0, _addLocale).addLocale(pathnameInfo.pathname, pathnameInfo.locale);
                 if ((0, _isDynamic).isDynamicRoute(as) || !rewriteHeader && pages.includes((0, _normalizeLocalePath).normalizeLocalePath((0, _removeBasePath).removeBasePath(as), options.router.locales).pathname)) {
@@ -1793,7 +1794,6 @@ function fetchRetry(url, attempts, options) {
         return !response.ok && attempts > 1 && response.status >= 500 ? fetchRetry(url, attempts - 1, options) : response;
     });
 }
-const backgroundCache = {};
 function handleSmoothScroll(fn) {
     const htmlElement = document.documentElement;
     const existing = htmlElement.style.scrollBehavior;
@@ -1813,9 +1813,11 @@ function fetchNextData({ dataHref , inflightCache , isPrefetch , hasMiddleware ,
     var ref1;
     const getData = (params)=>{
         return fetchRetry(dataHref, isServerRender ? 3 : 1, {
-            headers: isPrefetch ? {
+            headers: Object.assign({}, isPrefetch ? {
                 purpose: "prefetch"
-            } : {},
+            } : {}, isPrefetch && hasMiddleware ? {
+                "x-middleware-prefetch": "1"
+            } : {}),
             method: (ref1 = params == null ? void 0 : params.method) != null ? ref1 : "GET"
         }).then((response)=>{
             if (response.ok && (params == null ? void 0 : params.method) === "HEAD") {
@@ -1886,7 +1888,12 @@ function fetchNextData({ dataHref , inflightCache , isPrefetch , hasMiddleware ,
             }
             return data;
         }).catch((err)=>{
-            delete inflightCache[cacheKey];
+            if (!unstable_skipClientCache) {
+                delete inflightCache[cacheKey];
+            }
+            if (err.message === "Failed to fetch") {
+                (0, _routeLoader).markAssetError(err);
+            }
             throw err;
         });
     };
@@ -1945,6 +1952,11 @@ class Router {
         window.history.back();
     }
     /**
+   * Go forward in history
+   */ forward() {
+        window.history.forward();
+    }
+    /**
    * Performs a `pushState` with arguments
    * @param url of the route
    * @param as masks `url` for the browser
@@ -1977,7 +1989,7 @@ class Router {
             // hydration. Your app should _never_ use this property. It may change at
             // any time without notice.
             const isQueryUpdating = options._h;
-            const shouldResolveHref = isQueryUpdating || options._shouldResolveHref || (0, _parsePath).parsePath(url).pathname === (0, _parsePath).parsePath(as).pathname;
+            let shouldResolveHref = isQueryUpdating || options._shouldResolveHref || (0, _parsePath).parsePath(url).pathname === (0, _parsePath).parsePath(as).pathname;
             const nextState = _extends({}, _this.state);
             // for static pages with query params in the URL we delay
             // marking the router ready until after the query is updated
@@ -2047,7 +2059,7 @@ class Router {
                 [pages, { __rewrites: rewrites  }] = yield Promise.all([
                     _this.pageLoader.getPageList(),
                     (0, _routeLoader).getClientBuildManifest(),
-                    _this.pageLoader.getMiddleware(), 
+                    _this.pageLoader.getMiddleware()
                 ]);
             } catch (err1) {
                 // If we fail to resolve the page list or client-build manifest, we must
@@ -2073,6 +2085,9 @@ class Router {
             // point by either next/link or router.push/replace so strip the
             // basePath from the pathname to match the pages dir 1-to-1
             pathname = pathname ? (0, _removeTrailingSlash).removeTrailingSlash((0, _removeBasePath).removeBasePath(pathname)) : pathname;
+            let route = (0, _removeTrailingSlash).removeTrailingSlash(pathname);
+            const parsedAsPathname = as.startsWith("/") && (0, _parseRelativeUrl).parseRelativeUrl(as).pathname;
+            const isMiddlewareRewrite = !!(parsedAsPathname && route !== parsedAsPathname && (!(0, _isDynamic).isDynamicRoute(route) || !(0, _routeMatcher).getRouteMatcher((0, _routeRegex).getRouteRegex(route))(parsedAsPathname)));
             // we don't attempt resolve asPath when we need to execute
             // middleware as the resolving will occur server-side
             const isMiddlewareMatch = yield matchesMiddleware({
@@ -2082,6 +2097,9 @@ class Router {
             });
             if (options.shallow && isMiddlewareMatch) {
                 pathname = _this.pathname;
+            }
+            if (isQueryUpdating && isMiddlewareMatch) {
+                shouldResolveHref = false;
             }
             if (shouldResolveHref && pathname !== "/_error") {
                 options._shouldResolveHref = true;
@@ -2105,7 +2123,7 @@ class Router {
                 return false;
             }
             resolvedAs = (0, _removeLocale).removeLocale((0, _removeBasePath).removeBasePath(resolvedAs), nextState.locale);
-            let route = (0, _removeTrailingSlash).removeTrailingSlash(pathname);
+            route = (0, _removeTrailingSlash).removeTrailingSlash(pathname);
             let routeMatch = false;
             if ((0, _isDynamic).isDynamicRoute(route)) {
                 const parsedAs1 = (0, _parseRelativeUrl).parseRelativeUrl(resolvedAs);
@@ -2115,7 +2133,7 @@ class Router {
                 const shouldInterpolate = route === asPathname;
                 const interpolatedAs = shouldInterpolate ? interpolateAs(route, asPathname, query) : {};
                 if (!routeMatch || shouldInterpolate && !interpolatedAs.result) {
-                    const missingParams = Object.keys(routeRegex.groups).filter((param)=>!query[param]);
+                    const missingParams = Object.keys(routeRegex.groups).filter((param)=>!query[param] && !routeRegex.groups[param].optional);
                     if (missingParams.length > 0 && !isMiddlewareMatch) {
                         if (false) {}
                         throw new Error((shouldInterpolate ? `The provided \`href\` (${url}) value is missing query values (${missingParams.join(", ")}) to be interpolated properly. ` : `The provided \`as\` value (${asPathname}) is incompatible with the \`href\` value (${route}). `) + `Read more: https://nextjs.org/docs/messages/${shouldInterpolate ? "href-interpolation-failed" : "incompatible-href-as"}`);
@@ -2144,7 +2162,10 @@ class Router {
                     routeProps,
                     locale: nextState.locale,
                     isPreview: nextState.isPreview,
-                    hasMiddleware: isMiddlewareMatch
+                    hasMiddleware: isMiddlewareMatch,
+                    unstable_skipClientCache: options.unstable_skipClientCache,
+                    isQueryUpdating: isQueryUpdating && !_this.isFallback,
+                    isMiddlewareRewrite
                 });
                 if ("route" in routeInfo && isMiddlewareMatch) {
                     pathname = routeInfo.route || route;
@@ -2168,7 +2189,7 @@ class Router {
                         }
                         if (false) {}
                         const routeRegex1 = (0, _routeRegex).getRouteRegex(pathname);
-                        const curRouteMatch = (0, _routeMatcher).getRouteMatcher(routeRegex1)(rewriteAs);
+                        const curRouteMatch = (0, _routeMatcher).getRouteMatcher(routeRegex1)(new URL(rewriteAs, location.href).pathname);
                         if (curRouteMatch) {
                             Object.assign(query, curRouteMatch);
                         }
@@ -2367,7 +2388,7 @@ class Router {
             }
         })();
     }
-    getRouteInfo({ route: requestedRoute , pathname , query , as , resolvedAs , routeProps , locale , hasMiddleware , isPreview , unstable_skipClientCache  }) {
+    getRouteInfo({ route: requestedRoute , pathname , query , as , resolvedAs , routeProps , locale , hasMiddleware , isPreview , unstable_skipClientCache , isQueryUpdating , isMiddlewareRewrite  }) {
         var _this = this;
         return _async_to_generator(function*() {
             /**
@@ -2377,7 +2398,7 @@ class Router {
      * for shallow routing purposes.
      */ let route = requestedRoute;
             try {
-                var ref, ref4, ref5;
+                var ref, ref4, ref5, ref6;
                 const handleCancelled = getCancelledHandler({
                     route,
                     router: _this
@@ -2390,6 +2411,7 @@ class Router {
                     existingInfo = undefined;
                 }
                 let cachedRouteInfo = existingInfo && !("initial" in existingInfo) && "production" !== "development" ? existingInfo : undefined;
+                const isBackground = isQueryUpdating;
                 const fetchNextDataParams = {
                     dataHref: _this.pageLoader.getDataHref({
                         href: (0, _formatUrl).formatWithValidation({
@@ -2403,35 +2425,56 @@ class Router {
                     hasMiddleware: true,
                     isServerRender: _this.isSsr,
                     parseJSON: true,
-                    inflightCache: _this.sdc,
+                    inflightCache: isBackground ? _this.sbc : _this.sdc,
                     persistCache: !isPreview,
                     isPrefetch: false,
-                    unstable_skipClientCache
+                    unstable_skipClientCache,
+                    isBackground
                 };
-                const data = yield withMiddlewareEffects({
+                const data = isQueryUpdating && !isMiddlewareRewrite ? {} : yield withMiddlewareEffects({
                     fetchData: ()=>fetchNextData(fetchNextDataParams),
                     asPath: resolvedAs,
                     locale: locale,
                     router: _this
+                }).catch((err)=>{
+                    // we don't hard error during query updating
+                    // as it's un-necessary and doesn't need to be fatal
+                    // unless it is a fallback route and the props can't
+                    // be loaded
+                    if (isQueryUpdating) {
+                        return {};
+                    }
+                    throw err;
                 });
+                if (isQueryUpdating) {
+                    data.json = self.__NEXT_DATA__.props;
+                }
                 handleCancelled();
                 if ((data == null ? void 0 : (ref = data.effect) == null ? void 0 : ref.type) === "redirect-internal" || (data == null ? void 0 : (ref4 = data.effect) == null ? void 0 : ref4.type) === "redirect-external") {
                     return data.effect;
                 }
                 if ((data == null ? void 0 : (ref5 = data.effect) == null ? void 0 : ref5.type) === "rewrite") {
-                    route = (0, _removeTrailingSlash).removeTrailingSlash(data.effect.resolvedHref);
-                    pathname = data.effect.resolvedHref;
-                    query = _extends({}, query, data.effect.parsedAs.query);
-                    resolvedAs = (0, _removeBasePath).removeBasePath((0, _normalizeLocalePath).normalizeLocalePath(data.effect.parsedAs.pathname, _this.locales).pathname);
-                    // Check again the cache with the new destination.
-                    existingInfo = _this.components[route];
-                    if (routeProps.shallow && existingInfo && _this.route === route && !hasMiddleware) {
-                        // If we have a match with the current route due to rewrite,
-                        // we can copy the existing information to the rewritten one.
-                        // Then, we return the information along with the matched route.
-                        return _extends({}, existingInfo, {
-                            route
-                        });
+                    const resolvedRoute = (0, _removeTrailingSlash).removeTrailingSlash(data.effect.resolvedHref);
+                    const pages = yield _this.pageLoader.getPageList();
+                    // during query updating the page must match although during
+                    // client-transition a redirect that doesn't match a page
+                    // can be returned and this should trigger a hard navigation
+                    // which is valid for incremental migration
+                    if (!isQueryUpdating || pages.includes(resolvedRoute)) {
+                        route = resolvedRoute;
+                        pathname = data.effect.resolvedHref;
+                        query = _extends({}, query, data.effect.parsedAs.query);
+                        resolvedAs = (0, _removeBasePath).removeBasePath((0, _normalizeLocalePath).normalizeLocalePath(data.effect.parsedAs.pathname, _this.locales).pathname);
+                        // Check again the cache with the new destination.
+                        existingInfo = _this.components[route];
+                        if (routeProps.shallow && existingInfo && _this.route === route && !hasMiddleware) {
+                            // If we have a match with the current route due to rewrite,
+                            // we can copy the existing information to the rewritten one.
+                            // Then, we return the information along with the matched route.
+                            return _extends({}, existingInfo, {
+                                route
+                            });
+                        }
                     }
                 }
                 if (route === "/api" || route.startsWith("/api/")) {
@@ -2448,11 +2491,17 @@ class Router {
                         __N_SSP: res.mod.__N_SSP
                     })));
                 if (false) {}
+                const wasBailedPrefetch = data == null ? void 0 : (ref6 = data.response) == null ? void 0 : ref6.headers.get("x-middleware-skip");
                 const shouldFetchData = routeInfo.__N_SSG || routeInfo.__N_SSP;
+                // For non-SSG prefetches that bailed before sending data
+                // we clear the cache to fetch full response
+                if (wasBailedPrefetch) {
+                    delete _this.sdc[data == null ? void 0 : data.dataHref];
+                }
                 const { props , cacheKey  } = yield _this._getData(_async_to_generator(function*() {
                     if (shouldFetchData) {
-                        const { json , cacheKey: _cacheKey  } = (data == null ? void 0 : data.json) ? data : yield fetchNextData({
-                            dataHref: _this.pageLoader.getDataHref({
+                        const { json , cacheKey: _cacheKey  } = (data == null ? void 0 : data.json) && !wasBailedPrefetch ? data : yield fetchNextData({
+                            dataHref: (data == null ? void 0 : data.json) ? data == null ? void 0 : data.dataHref : _this.pageLoader.getDataHref({
                                 href: (0, _formatUrl).formatWithValidation({
                                     pathname,
                                     query
@@ -2462,7 +2511,7 @@ class Router {
                             }),
                             isServerRender: _this.isSsr,
                             parseJSON: true,
-                            inflightCache: _this.sdc,
+                            inflightCache: wasBailedPrefetch ? {} : _this.sdc,
                             persistCache: !isPreview,
                             isPrefetch: false,
                             unstable_skipClientCache
@@ -2493,11 +2542,11 @@ class Router {
                 }
                 // we kick off a HEAD request in the background
                 // when a non-prefetch request is made to signal revalidation
-                if (!_this.isPreview && routeInfo.__N_SSG && "production" !== "development") {
+                if (!_this.isPreview && routeInfo.__N_SSG && "production" !== "development" && !isQueryUpdating) {
                     fetchNextData(Object.assign({}, fetchNextDataParams, {
                         isBackground: true,
                         persistCache: false,
-                        inflightCache: backgroundCache
+                        inflightCache: _this.sbc
                     })).catch(()=>{});
                 }
                 props.pageProps = Object.assign({}, props.pageProps);
@@ -2577,25 +2626,71 @@ class Router {
             if (false) {}
             let parsed = (0, _parseRelativeUrl).parseRelativeUrl(url);
             let { pathname , query  } = parsed;
+            const originalPathname = pathname;
             if (false) {}
             const pages = yield _this.pageLoader.getPageList();
             let resolvedAs = asPath;
             const locale = typeof options.locale !== "undefined" ? options.locale || undefined : _this.locale;
+            const isMiddlewareMatch = yield matchesMiddleware({
+                asPath: asPath,
+                locale: locale,
+                router: _this
+            });
             if (false) {}
             parsed.pathname = resolveDynamicRoute(parsed.pathname, pages);
             if ((0, _isDynamic).isDynamicRoute(parsed.pathname)) {
                 pathname = parsed.pathname;
                 parsed.pathname = pathname;
                 Object.assign(query, (0, _routeMatcher).getRouteMatcher((0, _routeRegex).getRouteRegex(parsed.pathname))((0, _parsePath).parsePath(asPath).pathname) || {});
-                url = (0, _formatUrl).formatWithValidation(parsed);
+                if (!isMiddlewareMatch) {
+                    url = (0, _formatUrl).formatWithValidation(parsed);
+                }
             }
             // Prefetch is not supported in development mode because it would trigger on-demand-entries
             if (false) {}
+            const data =  false ? 0 : yield withMiddlewareEffects({
+                fetchData: ()=>fetchNextData({
+                        dataHref: _this.pageLoader.getDataHref({
+                            href: (0, _formatUrl).formatWithValidation({
+                                pathname: originalPathname,
+                                query
+                            }),
+                            skipInterpolation: true,
+                            asPath: resolvedAs,
+                            locale
+                        }),
+                        hasMiddleware: true,
+                        isServerRender: _this.isSsr,
+                        parseJSON: true,
+                        inflightCache: _this.sdc,
+                        persistCache: !_this.isPreview,
+                        isPrefetch: true
+                    }),
+                asPath: asPath,
+                locale: locale,
+                router: _this
+            });
+            /**
+     * If there was a rewrite we apply the effects of the rewrite on the
+     * current parameters for the prefetch.
+     */ if ((data == null ? void 0 : data.effect.type) === "rewrite") {
+                parsed.pathname = data.effect.resolvedHref;
+                pathname = data.effect.resolvedHref;
+                query = _extends({}, query, data.effect.parsedAs.query);
+                resolvedAs = data.effect.parsedAs.pathname;
+                url = (0, _formatUrl).formatWithValidation(parsed);
+            }
+            /**
+     * If there is a redirect to an external destination then we don't have
+     * to prefetch content as it will be unused.
+     */ if ((data == null ? void 0 : data.effect.type) === "redirect-external") {
+                return;
+            }
             const route = (0, _removeTrailingSlash).removeTrailingSlash(pathname);
             yield Promise.all([
                 _this.pageLoader._isSsg(route).then((isSsg)=>{
                     return isSsg ? fetchNextData({
-                        dataHref: _this.pageLoader.getDataHref({
+                        dataHref: (data == null ? void 0 : data.json) ? data == null ? void 0 : data.dataHref : _this.pageLoader.getDataHref({
                             href: url,
                             asPath: resolvedAs,
                             locale: locale
@@ -2608,7 +2703,7 @@ class Router {
                         unstable_skipClientCache: options.unstable_skipClientCache || options.priority && !!true
                     }).then(()=>false) : false;
                 }),
-                _this.pageLoader[options.priority ? "loadPage" : "prefetch"](route), 
+                _this.pageLoader[options.priority ? "loadPage" : "prefetch"](route)
             ]);
         })();
     }
@@ -2693,8 +2788,10 @@ class Router {
         return this.state.isPreview;
     }
     constructor(pathname1, query1, as1, { initialProps , pageLoader , App , wrapApp , Component , err , subscription , isFallback , locale , locales , defaultLocale , domainLocales , isPreview  }){
-        // Server Data Cache
+        // Server Data Cache (full data requests)
         this.sdc = {};
+        // Server Background Cache (HEAD requests)
+        this.sbc = {};
         this.isFirstPopStateEvent = true;
         this._key = createKey();
         this.onPopState = (e)=>{
@@ -2812,7 +2909,7 @@ exports["default"] = Router; //# sourceMappingURL=router.js.map
 /***/ 1664:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(8418)
+module.exports = __webpack_require__(1551)
 
 
 /***/ })

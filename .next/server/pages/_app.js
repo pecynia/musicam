@@ -4,62 +4,11 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 6495:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-var __webpack_unused_export__;
-
-__webpack_unused_export__ = ({
-    value: true
-});
-exports.Z = _extends;
-function _extends() {
-    return extends_.apply(this, arguments);
-}
-function extends_() {
-    extends_ = Object.assign || function(target) {
-        for(var i = 1; i < arguments.length; i++){
-            var source = arguments[i];
-            for(var key in source){
-                if (Object.prototype.hasOwnProperty.call(source, key)) {
-                    target[key] = source[key];
-                }
-            }
-        }
-        return target;
-    };
-    return extends_.apply(this, arguments);
-}
-
-
-/***/ }),
-
-/***/ 2648:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-var __webpack_unused_export__;
-
-__webpack_unused_export__ = ({
-    value: true
-});
-exports.Z = _interopRequireDefault;
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        default: obj
-    };
-}
-
-
-/***/ }),
-
-/***/ 638:
+/***/ 7645:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
 
-"client";
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
@@ -94,8 +43,6 @@ function dynamic(dynamicOptions, options) {
     }
     // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})
     loadableOptions = _extends({}, loadableOptions, options);
-    // Error if Fizz rendering is not enabled and `suspense` option is set to true
-    if (false) {}
     if (loadableOptions.suspense) {
         if (false) {}
         delete loadableOptions.ssr;
@@ -117,7 +64,6 @@ function dynamic(dynamicOptions, options) {
     }
     return loadableFn(loadableOptions);
 }
-"client";
 const isServerSide = "undefined" === "undefined";
 function noSSR(LoadableInitializer, loadableOptions) {
     // Removing webpack and modules means react-loadable won't try preloading
@@ -147,7 +93,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 5656:
+/***/ 3847:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -157,8 +103,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5152);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6764);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5152);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -168,9 +116,16 @@ function MyApp({ Component , pageProps  }) {
     });
 }
 // Turn off server-side rendering to remove the flash of unstyled content (FOUC)
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>Promise.resolve(MyApp), {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(()=>Promise.resolve(MyApp), {
     ssr: false
 })); //export default MyApp
+
+
+/***/ }),
+
+/***/ 6764:
+/***/ (() => {
+
 
 
 /***/ }),
@@ -178,7 +133,7 @@ function MyApp({ Component , pageProps  }) {
 /***/ 5152:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(638)
+module.exports = __webpack_require__(7645)
 
 
 /***/ }),
@@ -214,7 +169,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(5656));
+var __webpack_exports__ = __webpack_require__.X(0, [735], () => (__webpack_exec__(3847)));
 module.exports = __webpack_exports__;
 
 })();
