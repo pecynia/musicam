@@ -1,0 +1,13 @@
+Problems:
+    1. database resets if someone accesses the admin page
+        - can be fixed to check whether there is already an admin active, if not reset all the values of the database, otherwise dont
+    2. you can switch from the admin page to the camera connect page while making it seem like there is an admin active
+        - is the admin actually active? Does it always become negative no matter no you disconnect the serial port
+    3. You can only set your name and id if the admin is active, and you reroute from the main page to the camera domain
+    
+TODO:
+    3. Implement camera names and ids settings to be overwritten by the admin
+    6. Implement name in line if the sameHeight is true
+
+Extensions:
+    1. Create sessions, which can be created by the admin, and then cameras can join based on this session's id.
