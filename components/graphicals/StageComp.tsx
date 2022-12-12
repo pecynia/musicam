@@ -18,7 +18,6 @@ const scale = (windowObj: Window | undefined, container: HTMLElement|null, x: nu
         const windowWidth = windowObj.innerWidth
         const windowHeight = windowObj.innerHeight
         
-
         // Get the container size
         const containerWidth = container?.clientWidth
         const containerHeight = container ? ((container?.clientWidth * depth) < container?.clientHeight ? (container?.clientWidth * depth) : container?.clientHeight) : undefined
@@ -70,7 +69,7 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
 
             // Push the JSX to the array
             arr.push(
-                <div className='absolute ' style={{top: containerY, left: containerX, width: containerWidth, height: containerHeight, backgroundColor: index === 0 ? 'rgba(255, 255, 180, 1)' : 'transparent' } } key={index}>
+                <div className={`absolute ${index === 0 ? 'bg-yellow-200' : 'bg-yellow-100'}`} style={{top: containerY, left: containerX, width: containerWidth, height: containerHeight} } key={index}>
                     {/* Lines, circles and names */}
                     <div className="bg-yellow-200">
                         <svg className='absolute' style={{top: 0, left: 0, width: '100%', height: '100%'}}>
@@ -92,7 +91,8 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
                                         x={(xBegin + xEnd) / 2} 
                                         y={(yBegin + yEnd) / 2} textAnchor='middle' alignmentBaseline='middle' fontSize='15' 
                                         transform={`rotate(${Math.atan((yEnd - yBegin) / (xEnd - xBegin)) * 180 / Math.PI}, ${(xBegin + xEnd) / 2}, ${(yBegin + yEnd) / 2})`} 
-                                        fill={props.currentId === props.ids[index] ? 'darkblue' : 'violet'}>{props.currentId === props.ids[index] ? 'You' : nameString}</text> 
+                                        fill={props.currentId === props.ids[index] ? 'darkblue' : 'violet'}>{props.currentId === props.ids[index] ? 'You' : nameString}
+                                    </text> 
                                 </g>
                                 : 
                                 // This is for when the camera is not on the same height as the stage, the name is displayed in a circle
@@ -115,7 +115,6 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
                                 <svg className='absolute' style={{top: 0, left: 0, width: '100%', height: '100%'}}>
                                     {/* Triangle pointing downwards in the middle bottom of the stage, with an offset up of 20 pixels  */}
                                     <polygon points={`${containerWidth / 2 - 10},${containerHeight - 25} ${containerWidth / 2 + 10},${containerHeight - 25} ${containerWidth / 2},${containerHeight - 10}`} fill="darkblue" />
-
 
                                     {/* Corner squares, uneven because of the border */} 
                                     <rect x={0} y={0} width="20" height="20" fill="darkblue" />

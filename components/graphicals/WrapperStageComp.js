@@ -8,7 +8,6 @@ import { getCameraData, getCamName, getActiveCamNodeIds, getNodeToId, getStagePr
 // This is done to prevent the StageComp from re-rendering everytime the data is updated, which would cause the StageComp to re-render
 // and the camera to be reset to the default position
 
-
 export class Wrapper extends React.Component{
     // Constructor of the wrapper where the xbegin, xeind, ybegin and yend are being stored for every camera
     constructor(selectedId){
@@ -90,7 +89,8 @@ export class Wrapper extends React.Component{
         window.addEventListener('resize', this.getCameraData.bind(this));
     }
 
-   render(){
+    // Render the StageComp with the data from the database
+    render(){
         return(
             <div className=''>
                 <StageComp currentId={this.state.selectedId} ids={this.state.ids} names={this.state.names} 

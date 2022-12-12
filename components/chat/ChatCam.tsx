@@ -34,10 +34,10 @@ export const ChatCam: FunctionComponent<ChatCamProps> = (props: ChatCamProps) =>
                     value.length > 0 ? 
                     <div className='pl-5 pr-5 pt-10' key={key}>
                         <div className='text-center'>
-                            <p className='pl-5 py-1 font-bold text-lg  bg-yellow-400 text-blue-800 '>
+                            {/* The following code is not visible on screen */}
+                            <p className='pl-5 py-1 font-bold text-lg  bg-yellow-400 text-blue-800' style={{backdropFilter: 'blur(10px)'}}>
                                 {value.length > 80 ? value.substring(0, 80) + "..." : value}
                             </p>
-
                             {/* Create the loader bar that goes up to five seconds and then disappears, that slowly goes from left to right */}
                             <svg className="animate-pulse" width="100%" height="20" viewBox="0 10 100 50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                                 <rect x="0" y="0" width="100" height="20" fill="blue">

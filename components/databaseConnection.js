@@ -14,7 +14,6 @@ function getNodeToId(node_id) {
     }
 }
 
-
 // Handling JSON object
 function handleCamJSON(data) {
     // data is an array of strings that need to be converted to JSON objects

@@ -4,9 +4,6 @@ import  {Wrapper} from "./graphicals/WrapperStageComp"
 import { writeCamName, getAdminActive, getNodeToId } from "./databaseConnection"
 import {ChatCam} from "./chat/ChatCam"
 
-
-
-
 export const SetNameToId = () => {
     const [name, setName] = useState('')                // name of the camera
     const [id, setId] = useState(0)                    // id of the camera
