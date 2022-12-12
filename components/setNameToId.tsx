@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { getDatabase, ref, set, onValue} from 'firebase/database';
 import  {Wrapper} from "./graphicals/WrapperStageComp"
 import { writeCamName, getAdminActive, getNodeToId } from "./databaseConnection"
 import {ChatCam} from "./chat/ChatCam"
@@ -32,11 +33,13 @@ export const SetNameToId = () => {
 
     // Always automatically update the adminactive state when the adminactive state changes in the database, use useEffect
     useEffect(() => {
-        setAdminActive(getAdminActive());
+        const db = getDatabase();
+        onValue(ref(db, 'admin'), (snapshot) => {
+            setAdminActive(getAdminActive());
+        });
     }, []);
 
     
-    // There needs to be an admin active, before the cameras can start logging in
     if (idComplete === false) {
         // Set name form, including all text containers and styling
         return (
@@ -127,7 +130,7 @@ export const SetNameToId = () => {
                 </div>
         )
     } else {
-        // Set id by choosing in the graph, put buttons over the camera positions
+        // The id is set
         return ( 
             <div id='container' className='max-w-5xl mx-auto h-screen mt-2 overflow-hidden'>
                 {/* The stage component */}
