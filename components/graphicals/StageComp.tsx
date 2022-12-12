@@ -69,7 +69,7 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
 
             // Push the JSX to the array
             arr.push(
-                <div className={`absolute ${index === 0 ? 'bg-yellow-200' : 'bg-yellow-100'}`} style={{top: containerY, left: containerX, width: containerWidth, height: containerHeight} } key={index}>
+                <div className={`absolute ${index === 0 ? 'bg-yellow-200' : null}`} style={{top: containerY, left: containerX, width: containerWidth, height: containerHeight} } key={index}>
                     {/* Lines, circles and names */}
                     <div className="bg-yellow-200">
                         <svg className='absolute' style={{top: 0, left: 0, width: '100%', height: '100%'}}>
