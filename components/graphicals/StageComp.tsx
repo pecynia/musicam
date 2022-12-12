@@ -68,11 +68,11 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
             const containerWidth = container?.clientWidth
             const containerHeight = container ? ((container?.clientWidth * stageDepth) < container?.clientHeight ? (container?.clientWidth * stageDepth) : container?.clientHeight) : undefined
 
-            // Draw a line, connecting the begin and end coordinates, have a circle at the end with a name in it
+            // Push the JSX to the array
             arr.push(
-                <div className='absolute border-2 border-blue-800' style={{top: containerY, left: containerX, width: containerWidth, height: containerHeight}} key={index}>
+                <div className='absolute ' style={{top: containerY, left: containerX, width: containerWidth, height: containerHeight, backgroundColor: index === 0 ? 'rgba(255, 255, 180, 1)' : 'transparent' } } key={index}>
                     {/* Lines, circles and names */}
-                    <div>
+                    <div className="bg-yellow-200">
                         <svg className='absolute' style={{top: 0, left: 0, width: '100%', height: '100%'}}>
                             <line x1={xBegin} y1={yBegin} x2={xEnd} y2={yEnd} stroke={props.currentId === props.ids[index] ? 'tomato' : 'darkblue'} strokeWidth="7" />
                             {props.sameHeight[index] ? null : <circle cx={xEnd} cy={yEnd} r='30' fill={props.currentId === props.ids[index] ? 'tomato' : 'violet'}/>}
@@ -87,7 +87,7 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
                                         transform={`rotate(${Math.atan((yEnd - yBegin) / (xEnd - xBegin)) * 180 / Math.PI}, ${(xBegin + xEnd) / 2}, ${(yBegin + yEnd) / 2})`} 
                                         fill={props.currentId === props.ids[index] ? 'tomato' : 'darkblue'} rx='25' ry='100' 
                                     />
-                                    {/* Similiary , the text is rotated based on the angle of the line */}
+                                    {/* Similiary, the text is rotated based on the angle of the line */}
                                     <text 
                                         x={(xBegin + xEnd) / 2} 
                                         y={(yBegin + yEnd) / 2} textAnchor='middle' alignmentBaseline='middle' fontSize='15' 
@@ -113,11 +113,11 @@ const StageComp: FunctionComponent<StageProps> = (props: StageProps) => {
                         {containerWidth && containerHeight && (
                             <div className=''>
                                 <svg className='absolute' style={{top: 0, left: 0, width: '100%', height: '100%'}}>
-                                    <text x={containerWidth / 2} y={0 + 20} textAnchor="middle" alignmentBaseline="middle" fontSize="15" fill="darkblue">
-                                        Back of Stage
-                                    </text>
-                                    
-                                    {/* Corner squares */}
+                                    {/* Triangle pointing downwards in the middle bottom of the stage, with an offset up of 20 pixels  */}
+                                    <polygon points={`${containerWidth / 2 - 10},${containerHeight - 25} ${containerWidth / 2 + 10},${containerHeight - 25} ${containerWidth / 2},${containerHeight - 10}`} fill="darkblue" />
+
+
+                                    {/* Corner squares, uneven because of the border */} 
                                     <rect x={0} y={0} width="20" height="20" fill="darkblue" />
                                     <rect x={containerWidth - 20} y={0} width="20" height="20" fill="darkblue" />
                                     <rect x={0} y={containerHeight - 20} width="20" height="20" fill="darkblue" />

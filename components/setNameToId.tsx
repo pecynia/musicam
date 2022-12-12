@@ -37,7 +37,7 @@ export const SetNameToId = () => {
 
     
     // There needs to be an admin active, before the cameras can start logging in
-    if (adminActive===true && idComplete === false) {
+    if (idComplete === false) {
         // Set name form, including all text containers and styling
         return (
             <div>
@@ -105,8 +105,6 @@ export const SetNameToId = () => {
                                                         <button className={`bg-yellow-300 rounded-3xl py-1 px-2 text-center text-sm font-bold sm:text-lg text-yellow-600 opacity-50 ${id === 3 ? 'bg-yellow-300 rounded-full py-1 px-2 text-center text-sm font-bold sm:text-lg text-yellow-600 opacity-100' : 'opacity-30'}`} type="button" onClick={() => setId(3)}>3</button>
                                                         <button className={`bg-yellow-300 rounded-3xl py-1 px-2 mx-2 text-center text-sm font-bold sm:text-lg text-yellow-600 opacity-50 ${id === 4 ? 'bg-yellow-300 rounded-full py-1 px-2 text-center text-sm font-bold sm:text-lg text-yellow-600 opacity-100' : 'opacity-30'}`} type="button" onClick={() => setId(4)}>4</button>
                                                         <button className={`bg-yellow-300 rounded-3xl py-1 px-2 text-center text-sm font-bold sm:text-lg text-yellow-600 opacity-50 ${id === 5 ? 'bg-yellow-300 rounded-full py-1 px-2 text-center text-sm font-bold sm:text-lg text-yellow-600 opacity-100' : 'opacity-30'}`} type="button" onClick={() => setId(5)}>5</button>
-
-                                    
                                                     </div>
                                                 </div>
                                             </div>
@@ -128,10 +126,10 @@ export const SetNameToId = () => {
                     </div>
                 </div>
         )
-    } if (adminActive===true && idComplete === true) {
+    } else {
         // Set id by choosing in the graph, put buttons over the camera positions
         return ( 
-            <div id='container' className='max-w-5xl mx-auto h-screen mt-2 bg-yellow-200 overflow-hidden'>
+            <div id='container' className='max-w-5xl mx-auto h-screen mt-2 overflow-hidden'>
                 {/* The stage component */}
                 <div>
                     <Wrapper selectedId={id} />
@@ -145,18 +143,18 @@ export const SetNameToId = () => {
         )
     }
 
-    else {
-        // Return text saying that there is no admin active in the middle of the screen
-        return (
-            <div className='max-w-5xl mx-auto h-screen overflow-hidden'>
-                <div className='flex justify-center items-center h-full'>
-                    <div className='text-center font-normal'>
-                        <h1 className='text-2xl sm:text-4xl -mt-20 text-yellow-700'>
-                            No admin active
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+    // else {
+    //     // Return text saying that there is no admin active in the middle of the screen
+    //     return (
+    //         <div className='max-w-5xl mx-auto h-screen overflow-hidden'>
+    //             <div className='flex justify-center items-center h-full'>
+    //                 <div className='text-center font-normal'>
+    //                     <h1 className='text-2xl sm:text-4xl -mt-20 text-yellow-700'>
+    //                         No admin active
+    //                     </h1>
+    //                 </div>
+    //             </div>
+    //         </div>
+    //     );
+    // }
 }

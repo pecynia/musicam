@@ -24,7 +24,7 @@ function spectator() {
         </div>
 
         {/* main container */}          
-        <div id='container' className='max-w-5xl mx-auto h-screen mt-2 bg-yellow-200 overflow-hidden'>
+        <div id='container' className='max-w-5xl mx-auto h-screen mt-2 overflow-hidden'>
           {/* The stage */}
           <Wrapper selectedId={0} />
         </div>

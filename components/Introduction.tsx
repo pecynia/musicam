@@ -43,10 +43,11 @@ function Introduction() {
                 <div className='p-10 text-yellow-700'>
                     <div className='flex justify-center'>
                         <h3 className='text-3xl font-bold f'>
-                            Welcome to 
+                            Welcome to
+                            <span>{" "}</span>
                             <span className='font-mono text-3xl underline  underline-offset-4 decoration-8'>
                                 Musicam
-                            </span>{" "} 
+                            </span>
                         </h3>
                     </div>
                     <h2 className='px-3 py-3 text-xl'>

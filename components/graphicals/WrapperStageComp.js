@@ -92,8 +92,7 @@ export class Wrapper extends React.Component{
 
    render(){
         return(
-            <div>
-                {console.log(this.state)}
+            <div className=''>
                 <StageComp currentId={this.state.selectedId} ids={this.state.ids} names={this.state.names} 
                 beginCoordinates={[this.state.xbegin, this.state.ybegin]} endCoordinates={[this.state.xend, this.state.yend]} 
                 sameHeight={this.state.sameHeight} stageDepth={this.state.depth} />
