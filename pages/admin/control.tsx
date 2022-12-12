@@ -27,7 +27,7 @@ function controlpanel() {
         {/* main container */}
         <div className=''>
           {/* The stage on the right */}
-          <div id='container' className='max-w-5xl mx-auto h-screen mt-2  overflow-hidden ml-60'>
+          <div id='container' className='max-w-5xl mx-auto h-screen mt-2 overflow-hidden ml-60'>
             <Wrapper selectedId={0}/>
           </div>
 
