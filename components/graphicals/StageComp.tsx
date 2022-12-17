@@ -13,7 +13,6 @@ interface StageProps {
 
 const scale = (windowObj: Window | undefined, container: HTMLElement|null, x: number, y: number, depth: number) => {
     if (windowObj) {
-        console.log(depth)
         // Get the window size
         const windowWidth = windowObj.innerWidth
         const windowHeight = windowObj.innerHeight

@@ -20,7 +20,6 @@ function admin() {
       <div className='bg-yellow-50 font-spaceGrotesk'>
         
         {/* Background image */}
-        
         <div className='pt-2'>
             <img src='https://i.postimg.cc/3wq0M5Kp/camera-man-2.png' className='object-none w-full h-20' />
         </div>

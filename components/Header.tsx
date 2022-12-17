@@ -14,8 +14,12 @@ function Header() {
           
           {/* Other links */}
           <div className='hidden sm:inline-flex items-center space-x-5'>
-            <h3 className=''>About</h3>
-            <h3>Instructions</h3>
+            <Link href='/about'>
+              <h3 className='cursor-pointer'>About</h3>
+            </Link>
+            <Link href='/instructions'>
+              <h3 className='cursor-pointer'>Instructions</h3>
+            </Link>
           </div>
         </div>
       </div>
