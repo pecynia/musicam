@@ -27,7 +27,7 @@ function Introduction() {
 
                             {/* Text */}
                             <h3 className='text-lg font-bold text-yellow-700 group-hover:text-yellow-100 font-spaceGrotes'>
-                                Get started
+                                <a href='/instructions'>Get started </a>
                             </h3>
                         </div>
                     </Link>
