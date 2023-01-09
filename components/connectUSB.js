@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { getDatabase, ref, set } from 'firebase/database';
 import { writeAdminData, handleCamJSON, resetCamData, handleStageJSON  } from './databaseConnection';
 import Link from 'next/link'
 
@@ -38,8 +37,8 @@ export const SerialReader = () =>{
                         // Convert arraybuffer to ascii
                         const tempArr = [...value]
                         message = [...message, ...tempArr]
-                        if(JSON.stringify(tempArr.slice(tempArr.length-2)) === JSON.stringify([13, 10])){
-                            const res = message.slice(0, message.length-2).map((val) => {
+                        if(JSON.stringify(tempArr.slice(tempArr.length - 2)) === JSON.stringify([13, 10])){
+                            const res = message.slice(0, message.length - 2).map((val) => {
                                 return String.fromCharCode(val);
                             })
                             // Make it a try catch block to handle errors, because sometimes the data is not complete

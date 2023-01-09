@@ -47,7 +47,7 @@ function instructions() {
                                 <ol className='pl-10 text-lg pt-2 list-[upper-roman]'>
                                     <li className='pb-2'>Be sure to be connected to <span className='font-bold'>WiFi</span> or any wireless internet connection</li>
                                     <li className='pb-2'>Plugin the <span className='font-bold'>ESP Server</span> in a free USB slot</li>
-                                    <li className='pb-2'>Go to page <a href='https://musicam.vercel.app/admin/connect' className='font-bold text-blue-500 underline decoration-blue-500'>www.musicam.vercel.app/admin/connect</a> and connect to the server by following the instructions on the page</li>
+                                    <li className='pb-2'>Go to this <a href='https://musicam.vercel.app/admin/connect' className='font-bold text-blue-500 underline decoration-blue-500'>page</a> and connect to the server by following the instructions on the page</li>
                                     <li className='pb-2'>Once connected, you can redirected to the <span className='font-bold'>Admin Dashboard</span></li>
                                     <li className='pb-2'> You are done, you can now send messages by typing in the text box and hitting <span className='font-bold italic'>send message</span>. You can send personalized messages to individual members of the camera crew by selecting their corresponding ESP Client ID or name. If no user is selected, the message will be sent to all members of the camera crew.</li>
                                 </ol>
@@ -57,7 +57,7 @@ function instructions() {
                             <li className='pb-2'>Configuration of ESP Client
                                 <ol className='pl-10 text-lg pt-2 list-[upper-roman]'>
                                     <li className='pb-2'>Be sure to be connected to <span className='font-bold'>WiFi</span> or any wireless internet connection</li>
-                                    <li className='pb-2'>Go to <a href='https://musicam.vercel.app/camera' className='font-bold text-blue-500 underline decoration-blue-500'>www.musicam.vercel.app/camera</a></li>
+                                    <li className='pb-2'>Go to this <a href='https://musicam.vercel.app/camera' className='font-bold text-blue-500 underline decoration-blue-500'>page</a></li>
                                     <li className='pb-2'>Give yourself a name and select your corresponding <span className='font-bold'>ESP Client ID</span></li>
                                     <li className='pb-2'>Attach the ESP Client to the camera</li>
                                     <li className='pb-2'>Position the camera horizontally and connect the battery pack to the ESP Client</li>

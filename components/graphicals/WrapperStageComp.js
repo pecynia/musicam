@@ -3,10 +3,9 @@ import StageComp from "./StageComp"
 import { getDatabase, ref, onValue } from 'firebase/database';
 import { getCameraData, getCamName, getActiveCamNodeIds, getNodeToId, getStageProp } from "../databaseConnection"
 
-// Create a wrapper for StageComp, where a selectedID is passed, and the data is pulled from the database and passed to the StageComp
+// A wrapper for StageComp, where a selectedID is passed, and the data is pulled from the database and passed to the StageComp
 // and everytime there is an update in the camera data, using OnValue, the data in the wrapper is updated and passed to the StageComp
-// This is done to prevent the StageComp from re-rendering everytime the data is updated, which would cause the StageComp to re-render
-// and the camera to be reset to the default position
+// This is done to prevent the StageComp from re-rendering everytime the data is updated, which would make the page slow
 
 export class Wrapper extends React.Component{
     // Constructor of the wrapper where the xbegin, xeind, ybegin and yend are being stored for every camera
